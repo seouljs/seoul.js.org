@@ -1,0 +1,28 @@
+{
+  "name": "seouljs.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "flybook": "^1.4.1",
+    "gh-pages": "^1.0.0"
+  },
+  "scripts": {
+    "docs": "flybook docs --outdir=out",
+    "deploy": "gh-pages -d out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seouljs/seouljs.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seouljs/seouljs.github.io/issues"
+  },
+  "homepage": "https://github.com/seouljs/seouljs.github.io#readme"
+}
