@@ -1,28 +1,24 @@
 {
-  "name": "seouljs.github.io",
+  "name": "seoul.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "자바스크립트에 대화를 위해서 넓고 얕은 지식을 (자대넓얕) 위한 메시브 오픈 온라인 커뮤니티 (MOOC)",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "dependencies": {},
   "devDependencies": {
     "flybook": "^1.4.1",
-    "gh-pages": "^1.0.0"
+    "gh-pages": "^1.0.0",
+    "serve": "^5.2.2"
   },
   "scripts": {
     "docs": "flybook docs --outdir=out",
-    "deploy": "gh-pages -d out"
+    "pages": "npm run docs &&  echo seoul.js.org > out/CNAME && gh-pages -d out",
+    "start": "npm run docs && serve ./out"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seouljs/seouljs.github.io.git"
+    "url": "https://github.com/seouljs/seoul.js.org"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/seouljs/seouljs.github.io/issues"
-  },
-  "homepage": "https://github.com/seouljs/seouljs.github.io#readme"
+  "author": "ragingwind@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/seouljs/seoul.js.org"
 }
