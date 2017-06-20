@@ -11,7 +11,7 @@
   },
   "scripts": {
     "docs": "flybook docs --outdir=out",
-    "pages": "npm run docs && gh-pages -d out",
+    "pages": "npm run docs &&  echo seoul.js.org > out/CNAME && gh-pages -d out",
     "start": "npm run docs && serve ./out"
   },
   "repository": {
