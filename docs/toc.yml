@@ -4,3 +4,5 @@
     Flybook: "topics/flybook.md"
   Communities: 
     Slack: "communities/slack.md"
+  Podcast: 
+    Seoul.js: "podcast/seoul.js.md"
