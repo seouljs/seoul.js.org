@@ -11,7 +11,8 @@
   },
   "scripts": {
     "docs": "flybook docs --outdir=out",
-    "pages": "npm run docs &&  echo seoul.js.org > out/CNAME && gh-pages -d out",
+    "docs:prod": "flybook docs --outdir=out",
+    "pages": "npm run docs:prod && gh-pages -d out",
     "start": "npm run docs && serve ./out"
   },
   "repository": {
@@ -20,5 +21,5 @@
   },
   "author": "ragingwind@gmail.com",
   "license": "MIT",
-  "homepage": "https://github.com/seouljs/seoul.js.org"
+  "homepage": "https://seoul.js.org"
 }
