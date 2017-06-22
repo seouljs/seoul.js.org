@@ -11,7 +11,7 @@
   },
   "scripts": {
     "docs": "flybook docs --outdir=out",
-    "docs:prod": "flybook docs --outdir=out",
+    "docs:prod": "flybook docs --outdir=out --prod",
     "pages": "npm run docs:prod && gh-pages -d out",
     "start": "npm run docs && serve ./out"
   },
@@ -19,7 +19,25 @@
     "type": "git",
     "url": "https://github.com/seouljs/seoul.js.org"
   },
-  "author": "ragingwind@gmail.com",
+  "author": {
+    "name": "Seoul.js",
+    "email": "ragingwind@gmail.com",
+    "url": "https://seoul.js.org/"
+  },
+  "maintainers": [
+    {
+      "name": "Jimmy Moon",
+      "email": "ragingwind@gmail.com"
+    },
+    {
+      "name": "Rhio Kim",
+      "email": "rhio.kim@gmail.com"
+    },
+    {
+      "name": "wany",
+      "email": "baepower@me.com"
+    }
+  ],
   "license": "MIT",
   "homepage": "https://seoul.js.org"
 }
