@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "flybook": "^1.4.1",
+    "flybook": "^1.4.2",
     "gh-pages": "^1.0.0",
     "serve": "^5.2.2"
   },
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/seouljs/seoul.js.org"
+    "url": "git+https://github.com/seouljs/seoul.js.org.git"
   },
   "author": {
     "name": "Seoul.js",
