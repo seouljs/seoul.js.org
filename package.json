@@ -12,8 +12,9 @@
   "scripts": {
     "docs": "flybook docs --outdir=out",
     "docs:prod": "flybook docs --outdir=out --prod",
-    "pages": "npm run docs:prod && gh-pages -d out",
-    "start": "npm run docs && serve ./out"
+    "pages": "npm run docs:prod",
+    "start": "serve ./out",
+    "deploy": "gh-pages -d out"
   },
   "repository": {
     "type": "git",
