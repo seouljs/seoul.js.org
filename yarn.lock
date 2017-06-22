@@ -667,9 +667,9 @@ filesize@3.5.10:
   version "3.5.10"
   resolved "https://registry.yarnpkg.com/filesize/-/filesize-3.5.10.tgz#fc8fa23ddb4ef9e5e0ab6e1e64f679a24a56761f"
 
-flybook@^1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/flybook/-/flybook-1.4.2.tgz#aff6f10e6dfd22f229409201e6445760294789d9"
+flybook@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/flybook/-/flybook-1.4.3.tgz#eaa918897b1a9ea5cc24b6c653e62b4e2cade45f"
   dependencies:
     babel-register "^6.24.1"
     classnames "^2.2.5"

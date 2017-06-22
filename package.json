@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "flybook": "^1.4.2",
+    "flybook": "^1.4.3",
     "gh-pages": "^1.0.0",
     "serve": "^5.2.2"
   },
