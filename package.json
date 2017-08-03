@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "자바스크립트에 대화를 위해서 넓고 얕은 지식을 (자대넓얕) 위한 메시브 오픈 온라인 커뮤니티 (MOOC)",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "flybook": "^1.4.5",
     "gh-pages": "^1.0.0",
-    "serve": "^5.2.2"
+    "serve": "^6.0.5"
   },
   "scripts": {
     "docs": "flybook docs --outdir=out",
