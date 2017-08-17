@@ -35,8 +35,8 @@
   - Slack Invitation Link : https://seouljs.now.sh/
 - Github
   - Organization : https://github.com/orgs/seouljs
-  - Flybook repository : https://github.com/seouljs/seoul.js.org
-    - https://seoul.js.org/ 
+  - Official Site : https://github.com/seouljs/seoul.js.org
+    - https://seoul.js.org/
   - 발표 주제 선정 : https://github.com/seouljs/meeting
 - 온라인 / 오프라인 미트업
   - 주니어를 위한 온라인 밋업 준비 중
