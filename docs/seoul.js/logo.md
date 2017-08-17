@@ -1,12 +1,11 @@
 <div class="slider">
-  <div><img src="../assets/bi/SeoulJS Graphic01.png"/></div>
-  <div><img src="../assets/bi/SeoulJS Graphic02.png"/></div>
-  <div><img src="../assets/bi/SeoulJS Graphic03.png"/></div>
-  <div><img src="../assets/bi/SeoulJS Graphic04.png"/></div>
-  <div><img src="../assets/bi/SeoulJS Graphic05.png"/></div>
+  <div><img src="../assets/bi/SeoulJS_01.jpg"/></div>
+  <div><img src="../assets/bi/SeoulJS_02.jpg"/></div>
+  <div><img src="../assets/bi/SeoulJS_03.jpg"/></div>
+  <div><img src="../assets/bi/SeoulJS_04.jpg"/></div>
 </div>
 
-<a href="../assets/bi/SeoulJS_Bi.zip"><img class="download-bi" src="../assets/bi/btn_download.png"/></a>
+<a href="../assets/bi/SeoulJS_Bi.zip" class="download-bi"><img src="../assets/bi/btn_download.png"/></a>
 
 <link rel="stylesheet" href="../assets/seoul.js.css" />
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.css"/>
@@ -19,7 +18,10 @@
   $(".slider").slick({ autoplay: true, arrows: false, zIndex: 1, infinite: true })
 </script>
 <style>
-  .slider, .download-bi {
-    width: 300px;
+  .download-bi {
+    position: absolute;
+    width: calc(100% - 70%);
+    margin-top: calc(100% - 113%);
+    margin-left: calc(100% - 82.9%);
   }
 </style>
