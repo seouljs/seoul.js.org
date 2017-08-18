@@ -2,6 +2,24 @@
 
 ## @jimmy
 
+# Why We Started Seoul.js
+ 
+# 도메인 때문 :thinking: _seoul.js.org_
+
+# 우리의 목표는 __JS 커뮤니티__ 가 되는 것입니다
+
+# 다양한 __액티비티, 미트업, 워크샵, 해커톤__ 에서
+
+# __최신의 트렌드와 다양한 JS 주제__ 를 다루고
+
+## 새로운 프레임웍, 라이브러리들의 장단 비교 / 다양한 컴파일, 트렌스필러 장단 비교 / 최신 개발 도구들 / Electron + typescript + react.js + enzyme + jest / JS in VR and virtual devices / JS in IoT / CSS in JS ...
+
+# __넘치는 인사이트__ 를 주고 받는
+
+# 우리(저)의 목마름은 __국제적인 JS 컨퍼런스__ 호스트가 없다는 것입니다 (코리아패싱?)
+
+# 그리고 jsconf.kr 을 개최하는 것입니다
+
 ## About JSConf
 - JSConf.us April 2009. Washington DC
 - JS 의 본고장에서 JSConf.eu 같은해 11월
