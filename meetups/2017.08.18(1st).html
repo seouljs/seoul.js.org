@@ -19,10 +19,10 @@ Place: Maru180 in Gangnam, Google"
         href="//fonts.googleapis.com/css?family=Rubik|Unica+One"
         rel="stylesheet"
       />
-      <link rel="stylesheet" href="../static/css/normalize.css?e929f615057a7274" />
-      <link rel="stylesheet" href="../static/css/flexboxgrid.min.css?e929f615057a7274" />
-      <link rel="stylesheet" href="../static/css/github-flavored-markdown.css?e929f615057a7274" />
-      <link rel="stylesheet" href="../static/css/light.css?e929f615057a7274" />
+      <link rel="stylesheet" href="../static/css/normalize.css?705fe7fdf4108d9c" />
+      <link rel="stylesheet" href="../static/css/flexboxgrid.min.css?705fe7fdf4108d9c" />
+      <link rel="stylesheet" href="../static/css/github-flavored-markdown.css?705fe7fdf4108d9c" />
+      <link rel="stylesheet" href="../static/css/light.css?705fe7fdf4108d9c" />
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css" />
       <style>
         body, .markdown-body {
@@ -30,7 +30,7 @@ Place: Maru180 in Gangnam, Google"
         }
       </style>
       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-      <script src="../static/main.js?e929f615057a7274"></script>
+      <script src="../static/main.js?705fe7fdf4108d9c"></script>
       <body>
         <div id="root"><div class="wrap container-fluid"><header class="site-header"><h1><a href="/">seoul.js</a></h1><nav class="nav-link"><a href="/">Home</a><a href="https://github.com/seouljs/seoul.js.org">Git</a><a href="#" class="more"><svg aria-hidden="true" class="octicon" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"></path></svg></a></nav></header><section class="row main"><aside class="col-xs-12 col-sm-3 col-md-3 col-lg-3"><div class="chap"><span class="chap-title">Meetups</span><ul><li class="active"><a href="../meetups/2017.08.18(1st).html">2017.08.18(1st)</a></li></ul></div><div class="chap"><span class="chap-title">Meeting Notes</span><ul><li class=""><a href="../meeting-notes/2017.07.10.html">2017.07.10</a></li><li class=""><a href="../meeting-notes/2017.07.19(kickoff).html">2017.07.19(kickoff)</a></li></ul></div><div class="chap"><span class="chap-title">Seoul.js</span><ul><li class=""><a href="../seoul.js/about.html">About</a></li><li class=""><a href="../seoul.js/code-of-conduct.html">Code Of Conduct</a></li><li class=""><a href="../seoul.js/sponsors.html">Sponsors</a></li><li class=""><a href="../seoul.js/why-we-started-seoul.js.html">Why We Started Seoul.js</a></li><li class=""><a href="../seoul.js/logo.html">Logo</a></li></ul></div></aside><article class="col-xs-12 col-sm-9 col-md-9 col-lg-9"><div class="markdown-body"><p style="text-align:center">
   <img src="../assets/seoul_js_0818.png">
@@ -114,18 +114,22 @@ Place: Maru180 in Gangnam, Google"
 <h3 id="es2017-es8-소개"><a href="#es2017-es8-%EC%86%8C%EA%B0%9C" aria-hidden="true"><span class="icon icon-link"></span></a>ES2017 (ES8) 소개</h3>
 <p>자바스크립트의 표준이라고 할 수 있는 ECMAScript는 7년만에 발표한 2015년의 ES6를 시작으로 매년 새로운 버전을 출시되고 있습니다. 올해도 어김없이 새로운 버전의 ECMAScript가 발표되었습니다.</p>
 <p>지난 6월에 릴리즈된 ECMAScript 2017(ES8)에 어떤 기능(feature)이 추가되었는지 살펴보고, 이전의 ECMAScript에 있던 유사한 기능과는 어떤 차이점이 있는지 비교해 보려고 합니다.</p>
+<iframe src="//slides.com/onyoon7/ecmascript2017/embed" width="599" height="487" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <h3 id="일렉트론에서-자바스크립트-소스-코드-보호하기"><a href="#%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A1%A0%EC%97%90%EC%84%9C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%86%8C%EC%8A%A4-%EC%BD%94%EB%93%9C-%EB%B3%B4%ED%98%B8%ED%95%98%EA%B8%B0" aria-hidden="true"><span class="icon icon-link"></span></a>일렉트론에서 자바스크립트 소스 코드 보호하기</h3>
 <p>일렉트론을 프로덕션 레벨에서 사용하기 위해, 비지니스 로직에 대한 소스 보호가 필요합니다.
 일렉트론 자체적으로 제공하는 방법은 없기 때문에 우회해서 보호를 해야합니다.</p>
 <p>상용 프로그램인 프로토파이에서 소스를 보호한 방법을 소개하고, 간단하게 소스가 보호된 일렉트론 앱을 만들어보겠습니다.</p>
+<iframe src="//slides.com/woongjae/protecting-javascript-source-code-in-electron/embed" width="599" height="487" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <h3 id="문서화에-날개를-달아주는-flybook-cli"><a href="#%EB%AC%B8%EC%84%9C%ED%99%94%EC%97%90-%EB%82%A0%EA%B0%9C%EB%A5%BC-%EB%8B%AC%EC%95%84%EC%A3%BC%EB%8A%94-flybook-cli" aria-hidden="true"><span class="icon icon-link"></span></a>문서화에 날개를 달아주는 Flybook CLI</h3>
 <p>대부분의 성숙하고 잘 알려진 프로젝트라고 하면 따라오는 것이 문서화입니다.
 더불어 개발자들에게 고통과 번거러움을 동반하는 것 역시 문서화입니다.</p>
 <p>Flybook은 이러한 문서화의 고통을 해소 시켜보고자 시작한 Node 기반의 CLI 도구이고 이 발표에서는 Flybook을 이용해 손쉽게 문서화를 할 수 있는 방법들과 CI 툴과 연동하여 문서를 자동으로 생성하는 몇가지 편리한 활용법을 이야기하려고 합니다.</p>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/dMQoE373VgnL9M" width="599" height="487" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/rhio.kim/flybook-cli" title="문서화에 날개를 달아주는 Flybook CLI" target="_blank">문서화에 날개를 달아주는 Flybook CLI</a> </strong> from <strong><a href="https://www.slideshare.net/rhio.kim" target="_blank">Rhio Kim</a></strong> </div>
 <h3 id="새로운-자바스크립트-개발-도구의-시대"><a href="#%EC%83%88%EB%A1%9C%EC%9A%B4-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C-%EB%8F%84%EA%B5%AC%EC%9D%98-%EC%8B%9C%EB%8C%80" aria-hidden="true"><span class="icon icon-link"></span></a>새로운 자바스크립트 개발 도구의 시대</h3>
 <p>자바스크립트를 사용하는 개발환경에서 보일러플레이트/툴링이라는 단어가 아직은 모두에게 생소하던 시절부터 자바스크립트 개발 도구 오픈소스에 참여하면서 겪은 경험담과 도구들의 특징과 기능들에 대해서 공유합니다.</p>
 <p>그리고 현재 트렌드로 여겨지는 Zero Configuration Tooling 의 특/장점을 알아보고 앞으로 어떤 도구들을 사용할 것인지 알아보고자 합니다.</p>
-<p style="height:100px;">
+<script async class="speakerdeck-embed" data-slide="1" data-id="f334841a69a2444cb84b7bfd2878cc61" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<p style="height:100px;" />
 <h2 id="speakers"><a href="#speakers" aria-hidden="true"><span class="icon icon-link"></span></a>Speakers</h2>
 <h4 id="es2017-es8-소개-introduce-ecmascript-2017-language-specification"><a href="#es2017-es8-%EC%86%8C%EA%B0%9C-introduce-ecmascript-2017-language-specification" aria-hidden="true"><span class="icon icon-link"></span></a>ES2017 (ES8) 소개 (Introduce ECMAScript® 2017 Language Specification)</h4>
 <p style="float:left; margin-right: 10px;">
