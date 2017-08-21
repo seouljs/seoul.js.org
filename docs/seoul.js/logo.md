@@ -1,11 +1,12 @@
-<div class="slider">
-  <div><img src="../assets/bi/SeoulJS_01.jpg"/></div>
-  <div><img src="../assets/bi/SeoulJS_02.jpg"/></div>
-  <div><img src="../assets/bi/SeoulJS_03.jpg"/></div>
-  <div><img src="../assets/bi/SeoulJS_04.jpg"/></div>
+<div style="position: relative">
+  <div class="slider">
+    <div><img src="../assets/bi/SeoulJS_01.jpg"/></div>
+    <div><img src="../assets/bi/SeoulJS_02.jpg"/></div>
+    <div><img src="../assets/bi/SeoulJS_03.jpg"/></div>
+    <div><img src="../assets/bi/SeoulJS_04.jpg"/></div>
+  </div>
+  <a href="../assets/bi/SeoulJS_Bi.zip" class="download-bi"><img src="../assets/bi/btn_download.png"/></a>
 </div>
-
-<a href="../assets/bi/SeoulJS_Bi.zip" class="download-bi"><img src="../assets/bi/btn_download.png"/></a>
 
 <link rel="stylesheet" href="../assets/seoul.js.css" />
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.css"/>
@@ -20,8 +21,8 @@
 <style>
   .download-bi {
     position: absolute;
-    width: calc(100% - 70%);
-    margin-top: calc(100% - 113%);
-    margin-left: calc(100% - 82.9%);
+    width: calc(100% - 40%);
+    bottom: calc(100% - 92%);
+    left: calc(100% - 80%);
   }
 </style>
