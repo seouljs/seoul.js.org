@@ -6,8 +6,8 @@
   "dependencies": {},
   "devDependencies": {
     "flybook": "^1.4.5",
-    "gh-pages": "^1.0.0",
-    "serve": "^6.0.5"
+    "gh-pages": "^1.2.0",
+    "serve": "^9.2.0"
   },
   "scripts": {
     "docs": "flybook docs --outdir=out",
