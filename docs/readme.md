@@ -4,20 +4,20 @@
 
 ## Organizer
 
-| ![](https://avatars2.githubusercontent.com/u/124117?v=3&s=100) <br><sub>[Jimmy Moon](https://github.com/ragingwind/)</sub> | ![](https://avatars1.githubusercontent.com/u/145777?v=3&s=100) <br><sub>[Rhio Kim](https://github.com/rhiokim/)</sub> | ![](https://avatars1.githubusercontent.com/u/9678066?v=3&s=100) <br><sub>[2woongjae](https://github.com/2woongjae/)</sub> |
+| ![](https://avatars2.githubusercontent.com/u/124117?v=3&s=200) <br><sub>[Jimmy Moon](https://github.com/ragingwind/)</sub> | ![](https://avatars1.githubusercontent.com/u/145777?v=3&s=200) <br><sub>[Rhio Kim](https://github.com/rhiokim/)</sub> | ![](https://avatars1.githubusercontent.com/u/9678066?v=3&s=200) <br><sub>[2woongjae](https://github.com/2woongjae/)</sub> |
 | ------------- | ------------- | ------------- |
 
 ## Connect Seoul.js
 
 <a href="https://seouljs.now.sh/">
-  <img src="../assets/slack-icon-10.png" style="width: 50px;"/>
+  <img src="https://raw.githubusercontent.com/seouljs/seoul.js.org/master/docs/assets/slack-icon-10.png" style="width: 50px;"/>
 </a>
 
 - 슬랙 : https://seouljs.slack.com/
 - 슬랙 초대 링크 : https://seouljs.now.sh/
 
 <a href="https://seouljs.now.sh/">
-  <img src="../assets/github-256-black.png" style="width: 50px;"/>
+  <img src="https://raw.githubusercontent.com/seouljs/seoul.js.org/master/docs/assets/github-256-black.png" style="width: 50px;"/>
 </a>
 
 * 팀 저장소 : https://github.com/orgs/seouljs
