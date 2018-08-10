@@ -1,5 +1,5 @@
 ---
-name: 밋업
+name: 밋업(meetup)
 about: 밋업을 위한 기본 템플릿
 
 ---
