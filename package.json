@@ -1,0 +1,19 @@
+{
+  "name": "seoul.js.org",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/seouljs/seoul.js.org.git",
+  "author": "Jimmy Moon <ragingwind@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
+  },
+  "dependencies": {
+    "next": "^9.0.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}

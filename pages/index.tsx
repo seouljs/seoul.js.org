@@ -1,0 +1,1 @@
+export default () => <h1>⛑공사중 ⛑</h1>;
