@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{"/EDR":function(n,o,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/",function(){var n=t("23aj");return{page:n.default||n}}])},"23aj":function(n,o,t){"use strict";t.r(o);var a=t("q1tI"),e=t.n(a).a.createElement;o.default=function(){return e("img",{src:"/static/images/logo.png",alt:"Logo for Seouljs"})}}},[["/EDR",1,0]]]);
