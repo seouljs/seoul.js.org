@@ -1,1 +1,1 @@
-export default () => <h1>⛑공사중 {new Date().getDate()}⛑</h1>;
+export default () => <img src="/static/images/logo.png" alt="Logo for Seouljs" />;
