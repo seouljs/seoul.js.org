@@ -8,7 +8,9 @@ export default ({ children }) => {
           left: 0;
           width: 100wv;
           height: auto;
-          background: #fef953;
+          max-width: 1080px;
+          margin: 30px auto;
+          padding: 1.5em;
         }
       `}</style>
     </>

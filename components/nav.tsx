@@ -9,7 +9,7 @@ export default () => {
       <style jsx>{`
         .root {
           display: flex;
-          justify-content: flex-start;
+          justify-content: center;
           align-items: center;
           left: 0;
           width: 100vw;

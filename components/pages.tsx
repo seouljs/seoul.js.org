@@ -8,7 +8,13 @@ export default ({ title, description, children }) => {
         <meta name="description" content={description} />
       </Head>
       <style jsx>{`
-        overflow-x: hidden;
+        .container {
+          overflow-x: hidden;
+          background-image: url(/static/images/logo-ye-30.png);
+          background-size: 50%, 50%;
+          background-repeat: no-repeat, no-repeat;
+          background-position: right -100px top -200px, left -450px center;
+        }
       `}</style>
       <style jsx global>{`
         html,
@@ -38,7 +44,7 @@ export default ({ title, description, children }) => {
           scroll-behavior: smooth;
         }
       `}</style>
-      {children}
+      <div className="container">{children}</div>
     </>
   );
 };
