@@ -6,7 +6,7 @@ export default ({ children }) => {
         .root {
           display: flex;
           left: 0;
-          width: 100wv;
+          width: 100vw;
           height: auto;
           max-width: 1080px;
           margin: 30px auto;
