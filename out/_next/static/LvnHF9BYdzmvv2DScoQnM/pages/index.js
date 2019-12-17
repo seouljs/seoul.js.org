@@ -13,8 +13,8 @@
     '23aj': function(e, t, n) {
       'use strict';
       n.r(t);
-      var i = n('MX0m'),
-        r = n.n(i),
+      var r = n('MX0m'),
+        i = n.n(r),
         o = n('q1tI'),
         s = n.n(o),
         u = s.a.createElement,
@@ -24,7 +24,7 @@
             s.a.Fragment,
             null,
             u('header', { className: 'jsx-291361117' }, t),
-            u(r.a, { id: '291361117' }, [
+            u(i.a, { id: '291361117' }, [
               'header.jsx-291361117{left:0;width:100vw;height:100px;padding:10px;}'
             ])
           );
@@ -35,7 +35,7 @@
         d = function(e) {
           var t = e.title,
             n = e.description,
-            i = e.children;
+            r = e.children;
           return h(
             s.a.Fragment,
             null,
@@ -45,14 +45,14 @@
               h('title', { className: 'jsx-3063384700' }, t),
               h('meta', { name: 'description', content: n, className: 'jsx-3063384700' })
             ),
-            h(r.a, { id: '3949462247' }, [
+            h(i.a, { id: '3949462247' }, [
               '.container.jsx-3063384700{overflow-x:hidden;background-image:url(/static/images/logo-ye-30.png);background-size:50%,50%;background-repeat:no-repeat,no-repeat;background-position:right -100px top -200px,left -450px center;}'
             ]),
-            h(r.a, { id: '1013747890' }, [
+            h(i.a, { id: '1013747890' }, [
               'html,body{height:100vh;box-sizing:border-box;background-color:#1b1e35;overflow-x:hidden;color:#fff;}',
               "body{position:relative;min-height:100%;margin:0;line-height:1.65;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu', 'Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;font-size:16px;font-weight:400;min-width:320px;direction:ltr;font-feature-settings:'kern';text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-scroll-behavior:smooth;-moz-scroll-behavior:smooth;-ms-scroll-behavior:smooth;scroll-behavior:smooth;}"
             ]),
-            h('div', { className: 'jsx-3063384700 container' }, i)
+            h('div', { className: 'jsx-3063384700 container' }, r)
           );
         },
         f = s.a.createElement,
@@ -62,7 +62,7 @@
             s.a.Fragment,
             null,
             f('div', { className: 'jsx-2550013292 root' }, t),
-            f(r.a, { id: '2550013292' }, [
+            f(i.a, { id: '2550013292' }, [
               '.root.jsx-2550013292{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:0;width:100vw;height:auto;max-width:1080px;margin:30px auto;padding:1.5em;}'
             ])
           );
@@ -104,12 +104,22 @@
                     'p',
                     { className: 'jsx-2253487491' },
                     '\ub113\uace0 \uc595\uc740 \uc790\ubc14\uc2a4\ud06c\ub9bd\ud2b8\uc758 \uc9c0\uc2dd\uacfc \ub9e4\ub825\uc73c\ub85c \uc5ec\ub7ec\ubd84\uc758 \ubb34\ub98e\uacfc \uba38\ub9ac\ub97c \uce58\uac8c \ub9cc\ub4e4 \ub300\ud55c\ubbfc\uad6d \uc9c0\uc5ed\uae30\ubc18 \ud504\ub85c\uc81d\ud2b8. \ud2b8\uc704\uce58 \ud50c\ub7ab\ud3fc\uc744 \uc774\uc6a9\ud574\uc11c \uc2dc\uac04, \uacf5\uac04\uc758 \uc81c\uc57d\uc744 \ub118\uc5b4\uc11c\ub294 \uc0c8\ub85c\uc6b4 \uac1c\ubc1c \ubb38\ud654\ub97c \ub9cc\ub4ed\ub2c8\ub2e4. Seoul.js \uc758 Code of Conduct \ub97c \ub530\ub985\ub2c8\ub2e4.'
+                  ),
+                  m(
+                    'p',
+                    { className: 'jsx-2253487491' },
+                    'Twitter: ',
+                    m(
+                      'a',
+                      { href: 'https://twitter.com/seoul_js_org', className: 'jsx-2253487491' },
+                      '@seoul_js_org'
+                    )
                   )
                 )
               )
             )
           ),
-          m(r.a, { id: '2253487491' }, [
+          m(i.a, { id: '2253487491' }, [
             '.hero.jsx-2253487491{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;overflow:hidden;margin:0px;}',
             '.title.jsx-2253487491{margin-left:30px;color:#f3f3f3;}',
             '.title.jsx-2253487491 h1.jsx-2253487491{font-size:5em;color:#fefefe;margin:0;margin:0px;line-height:1em;}',
@@ -129,8 +139,8 @@
           return c.flush(), e;
         }),
         (t.default = void 0);
-      var i,
-        r = n('q1tI');
+      var r,
+        i = n('q1tI');
       function o(e) {
         return (o =
           'function' === typeof Symbol && 'symbol' === typeof Symbol.iterator
@@ -148,11 +158,11 @@
       }
       function s(e, t) {
         for (var n = 0; n < t.length; n++) {
-          var i = t[n];
-          (i.enumerable = i.enumerable || !1),
-            (i.configurable = !0),
-            'value' in i && (i.writable = !0),
-            Object.defineProperty(e, i.key, i);
+          var r = t[n];
+          (r.enumerable = r.enumerable || !1),
+            (r.configurable = !0),
+            'value' in r && (r.writable = !0),
+            Object.defineProperty(e, r.key, r);
         }
       }
       function u(e, t) {
@@ -180,7 +190,7 @@
             return (e.__proto__ = t), e;
           })(e, t);
       }
-      var c = new ((i = n('SevZ')) && i.__esModule ? i : { default: i }).default(),
+      var c = new ((r = n('SevZ')) && r.__esModule ? r : { default: r }).default(),
         h = (function(e) {
           function t(e) {
             var n;
@@ -192,7 +202,7 @@
               n
             );
           }
-          var n, i, o;
+          var n, r, o;
           return (
             (function(e, t) {
               if ('function' !== typeof t && null !== t)
@@ -201,7 +211,7 @@
                 constructor: { value: e, writable: !0, configurable: !0 }
               })),
                 t && l(e, t);
-            })(t, r.Component),
+            })(t, i.Component),
             (n = t),
             (o = [
               {
@@ -217,7 +227,7 @@
                 }
               }
             ]),
-            (i = [
+            (r = [
               {
                 key: 'shouldComponentUpdate',
                 value: function(e) {
@@ -242,7 +252,7 @@
                   );
                 }
               }
-            ]) && s(n.prototype, i),
+            ]) && s(n.prototype, r),
             o && s(n, o),
             t
           );
@@ -251,8 +261,8 @@
     },
     '8oxB': function(e, t) {
       var n,
-        i,
-        r = (e.exports = {});
+        r,
+        i = (e.exports = {});
       function o() {
         throw new Error('setTimeout has not been defined');
       }
@@ -279,9 +289,9 @@
           n = o;
         }
         try {
-          i = 'function' === typeof clearTimeout ? clearTimeout : s;
+          r = 'function' === typeof clearTimeout ? clearTimeout : s;
         } catch (e) {
-          i = s;
+          r = s;
         }
       })();
       var a,
@@ -302,15 +312,15 @@
           (a = null),
             (c = !1),
             (function(e) {
-              if (i === clearTimeout) return clearTimeout(e);
-              if ((i === s || !i) && clearTimeout) return (i = clearTimeout), clearTimeout(e);
+              if (r === clearTimeout) return clearTimeout(e);
+              if ((r === s || !r) && clearTimeout) return (r = clearTimeout), clearTimeout(e);
               try {
-                i(e);
+                r(e);
               } catch (t) {
                 try {
-                  return i.call(null, e);
+                  return r.call(null, e);
                 } catch (t) {
-                  return i.call(this, e);
+                  return r.call(this, e);
                 }
               }
             })(e);
@@ -320,7 +330,7 @@
         (this.fun = e), (this.array = t);
       }
       function m() {}
-      (r.nextTick = function(e) {
+      (i.nextTick = function(e) {
         var t = new Array(arguments.length - 1);
         if (arguments.length > 1)
           for (var n = 1; n < arguments.length; n++) t[n - 1] = arguments[n];
@@ -329,34 +339,34 @@
         (p.prototype.run = function() {
           this.fun.apply(null, this.array);
         }),
-        (r.title = 'browser'),
-        (r.browser = !0),
-        (r.env = {}),
-        (r.argv = []),
-        (r.version = ''),
-        (r.versions = {}),
-        (r.on = m),
-        (r.addListener = m),
-        (r.once = m),
-        (r.off = m),
-        (r.removeListener = m),
-        (r.removeAllListeners = m),
-        (r.emit = m),
-        (r.prependListener = m),
-        (r.prependOnceListener = m),
-        (r.listeners = function(e) {
+        (i.title = 'browser'),
+        (i.browser = !0),
+        (i.env = {}),
+        (i.argv = []),
+        (i.version = ''),
+        (i.versions = {}),
+        (i.on = m),
+        (i.addListener = m),
+        (i.once = m),
+        (i.off = m),
+        (i.removeListener = m),
+        (i.removeAllListeners = m),
+        (i.emit = m),
+        (i.prependListener = m),
+        (i.prependOnceListener = m),
+        (i.listeners = function(e) {
           return [];
         }),
-        (r.binding = function(e) {
+        (i.binding = function(e) {
           throw new Error('process.binding is not supported');
         }),
-        (r.cwd = function() {
+        (i.cwd = function() {
           return '/';
         }),
-        (r.chdir = function(e) {
+        (i.chdir = function(e) {
           throw new Error('process.chdir is not supported');
         }),
-        (r.umask = function() {
+        (i.umask = function() {
           return 0;
         });
     },
@@ -373,25 +383,25 @@
     SevZ: function(e, t, n) {
       'use strict';
       Object.defineProperty(t, '__esModule', { value: !0 }), (t.default = void 0);
-      var i = o(n('9kyW')),
-        r = o(n('bVZc'));
+      var r = o(n('9kyW')),
+        i = o(n('bVZc'));
       function o(e) {
         return e && e.__esModule ? e : { default: e };
       }
       function s(e, t) {
         for (var n = 0; n < t.length; n++) {
-          var i = t[n];
-          (i.enumerable = i.enumerable || !1),
-            (i.configurable = !0),
-            'value' in i && (i.writable = !0),
-            Object.defineProperty(e, i.key, i);
+          var r = t[n];
+          (r.enumerable = r.enumerable || !1),
+            (r.configurable = !0),
+            'value' in r && (r.writable = !0),
+            Object.defineProperty(e, r.key, r);
         }
       }
       var u = (function() {
         function e() {
           var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
             n = t.styleSheet,
-            i = void 0 === n ? null : n,
+            r = void 0 === n ? null : n,
             o = t.optimizeForSpeed,
             s = void 0 !== o && o,
             u = t.isBrowser,
@@ -399,9 +409,9 @@
           !(function(e, t) {
             if (!(e instanceof t)) throw new TypeError('Cannot call a class as a function');
           })(this, e),
-            (this._sheet = i || new r.default({ name: 'styled-jsx', optimizeForSpeed: s })),
+            (this._sheet = r || new i.default({ name: 'styled-jsx', optimizeForSpeed: s })),
             this._sheet.inject(),
-            i &&
+            r &&
               'boolean' === typeof s &&
               (this._sheet.setOptimizeForSpeed(s),
               (this._optimizeForSpeed = this._sheet.isOptimizeForSpeed())),
@@ -431,18 +441,18 @@
                       return (e[t] = 0), e;
                     }, {})));
                 var n = this.getIdAndRules(e),
-                  i = n.styleId,
-                  r = n.rules;
-                if (i in this._instancesCounts) this._instancesCounts[i] += 1;
+                  r = n.styleId,
+                  i = n.rules;
+                if (r in this._instancesCounts) this._instancesCounts[r] += 1;
                 else {
-                  var o = r
+                  var o = i
                     .map(function(e) {
                       return t._sheet.insertRule(e);
                     })
                     .filter(function(e) {
                       return -1 !== e;
                     });
-                  (this._indices[i] = o), (this._instancesCounts[i] = 1);
+                  (this._indices[r] = o), (this._instancesCounts[r] = 1);
                 }
               }
             },
@@ -458,9 +468,9 @@
                   (this._instancesCounts[n] -= 1),
                   this._instancesCounts[n] < 1)
                 ) {
-                  var i = this._fromServer && this._fromServer[n];
-                  i
-                    ? (i.parentNode.removeChild(i), delete this._fromServer[n])
+                  var r = this._fromServer && this._fromServer[n];
+                  r
+                    ? (r.parentNode.removeChild(r), delete this._fromServer[n])
                     : (this._indices[n].forEach(function(e) {
                         return t._sheet.deleteRule(e);
                       }),
@@ -521,10 +531,10 @@
                 var e = {};
                 return function(t, n) {
                   if (!n) return 'jsx-'.concat(t);
-                  var r = String(n),
-                    o = t + r;
+                  var i = String(n),
+                    o = t + i;
                   return (
-                    e[o] || (e[o] = 'jsx-'.concat((0, i.default)(''.concat(t, '-').concat(r)))),
+                    e[o] || (e[o] = 'jsx-'.concat((0, r.default)(''.concat(t, '-').concat(i)))),
                     e[o]
                   );
                 };
@@ -538,10 +548,10 @@
                       ? arguments[0]
                       : /__jsx-style-dynamic-selector/g,
                   t = {};
-                return function(n, i) {
-                  this._isBrowser || (i = i.replace(/\/style/gi, '\\/style'));
-                  var r = n + i;
-                  return t[r] || (t[r] = i.replace(e, n)), t[r];
+                return function(n, r) {
+                  this._isBrowser || (r = r.replace(/\/style/gi, '\\/style'));
+                  var i = n + r;
+                  return t[i] || (t[i] = r.replace(e, n)), t[i];
                 };
               }
             },
@@ -550,10 +560,10 @@
               value: function(e) {
                 var t = this,
                   n = e.children,
-                  i = e.dynamic,
-                  r = e.id;
-                if (i) {
-                  var o = this.computeId(r, i);
+                  r = e.dynamic,
+                  i = e.id;
+                if (r) {
+                  var o = this.computeId(i, r);
                   return {
                     styleId: o,
                     rules: Array.isArray(n)
@@ -563,7 +573,7 @@
                       : [this.computeSelector(o, n)]
                   };
                 }
-                return { styleId: this.computeId(r), rules: Array.isArray(n) ? n : [n] };
+                return { styleId: this.computeId(i), rules: Array.isArray(n) ? n : [n] };
               }
             },
             {
@@ -588,16 +598,16 @@
       (function(e) {
         function n(e, t) {
           for (var n = 0; n < t.length; n++) {
-            var i = t[n];
-            (i.enumerable = i.enumerable || !1),
-              (i.configurable = !0),
-              'value' in i && (i.writable = !0),
-              Object.defineProperty(e, i.key, i);
+            var r = t[n];
+            (r.enumerable = r.enumerable || !1),
+              (r.configurable = !0),
+              'value' in r && (r.writable = !0),
+              Object.defineProperty(e, r.key, r);
           }
         }
         Object.defineProperty(t, '__esModule', { value: !0 }), (t.default = void 0);
-        var i = e.env && !0,
-          r = function(e) {
+        var r = e.env && !0,
+          i = function(e) {
             return '[object String]' === Object.prototype.toString.call(e);
           },
           o = (function() {
@@ -606,13 +616,13 @@
                 n = t.name,
                 o = void 0 === n ? 'stylesheet' : n,
                 u = t.optimizeForSpeed,
-                a = void 0 === u ? i : u,
+                a = void 0 === u ? r : u,
                 l = t.isBrowser,
                 c = void 0 === l ? 'undefined' !== typeof window : l;
               !(function(e, t) {
                 if (!(e instanceof t)) throw new TypeError('Cannot call a class as a function');
               })(this, e),
-                s(r(o), '`name` must be a string'),
+                s(i(o), '`name` must be a string'),
                 (this._name = o),
                 (this._deletedRulePlaceholder = '#'.concat(o, '-deleted-rule____{}')),
                 s('boolean' === typeof a, '`optimizeForSpeed` must be a boolean'),
@@ -662,7 +672,7 @@
                         (this._optimizeForSpeed = 'insertRule' in this.getSheet()),
                         void (
                           this._optimizeForSpeed ||
-                          (i ||
+                          (r ||
                             console.warn(
                               'StyleSheet: optimizeForSpeed mode not supported falling back to standard mode.'
                             ),
@@ -703,7 +713,7 @@
                 {
                   key: 'insertRule',
                   value: function(e, t) {
-                    if ((s(r(e), '`insertRule` accepts only strings'), !this._isBrowser))
+                    if ((s(i(e), '`insertRule` accepts only strings'), !this._isBrowser))
                       return (
                         'number' !== typeof t && (t = this._serverSheet.cssRules.length),
                         this._serverSheet.insertRule(e, t),
@@ -716,7 +726,7 @@
                         n.insertRule(e, t);
                       } catch (u) {
                         return (
-                          i ||
+                          r ||
                             console.warn(
                               'StyleSheet: illegal rule: \n\n'.concat(
                                 e,
@@ -744,7 +754,7 @@
                       try {
                         n.insertRule(t, e);
                       } catch (o) {
-                        i ||
+                        r ||
                           console.warn(
                             'StyleSheet: illegal rule: \n\n'.concat(
                               t,
@@ -754,8 +764,8 @@
                           n.insertRule(this._deletedRulePlaceholder, e);
                       }
                     } else {
-                      var r = this._tags[e];
-                      s(r, 'old rule at index `'.concat(e, '` not found')), (r.textContent = t);
+                      var i = this._tags[e];
+                      s(i, 'old rule at index `'.concat(e, '` not found')), (i.textContent = t);
                     }
                     return e;
                   }
@@ -810,14 +820,14 @@
                 {
                   key: 'makeStyleTag',
                   value: function(e, t, n) {
-                    t && s(r(t), 'makeStyleTag acceps only strings as second parameter');
-                    var i = document.createElement('style');
-                    this._nonce && i.setAttribute('nonce', this._nonce),
-                      (i.type = 'text/css'),
-                      i.setAttribute('data-'.concat(e), ''),
-                      t && i.appendChild(document.createTextNode(t));
+                    t && s(i(t), 'makeStyleTag acceps only strings as second parameter');
+                    var r = document.createElement('style');
+                    this._nonce && r.setAttribute('nonce', this._nonce),
+                      (r.type = 'text/css'),
+                      r.setAttribute('data-'.concat(e), ''),
+                      t && r.appendChild(document.createTextNode(t));
                     var o = document.head || document.getElementsByTagName('head')[0];
-                    return n ? o.insertBefore(i, n) : o.appendChild(i), i;
+                    return n ? o.insertBefore(r, n) : o.appendChild(r), r;
                   }
                 },
                 {

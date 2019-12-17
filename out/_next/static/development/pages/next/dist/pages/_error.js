@@ -1,217 +1,6 @@
 (window['webpackJsonp'] = window['webpackJsonp'] || []).push([
-  ['static/development/pages/index.js'],
+  ['static/development/pages/next/dist/pages/_error.js'],
   {
-    /***/ './components/header.tsx':
-      /*!*******************************!*\
-  !*** ./components/header.tsx ***!
-  \*******************************/
-      /*! exports provided: default */
-      /***/ function(module, __webpack_exports__, __webpack_require__) {
-        'use strict';
-        __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! styled-jsx/style */ './node_modules/styled-jsx/style.js'
-        );
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          /*! react */ './node_modules/react/index.js'
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_1__
-        );
-        var _jsxFileName = '/Users/ragingwind/Workspace/seoul.js.org/components/header.tsx';
-
-        var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-        /* harmony default export */ __webpack_exports__['default'] = function(_ref) {
-          var children = _ref.children;
-          return __jsx(
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment,
-            null,
-            __jsx(
-              'header',
-              {
-                className: 'jsx-291361117',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 4
-                },
-                __self: this
-              },
-              children
-            ),
-            __jsx(
-              styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
-              {
-                id: '291361117',
-                __self: this
-              },
-              'header.jsx-291361117{left:0;width:100vw;height:100px;padding:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9oZWFkZXIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlrQixBQUdrQixPQUNLLFlBQ0MsYUFDQSxhQUNmIiwiZmlsZSI6Ii9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9oZWFkZXIudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgKHsgY2hpbGRyZW4gfSkgPT4ge1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8aGVhZGVyPntjaGlsZHJlbn08L2hlYWRlcj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgaGVhZGVyIHtcbiAgICAgICAgICBsZWZ0OiAwO1xuICAgICAgICAgIHdpZHRoOiAxMDB2dztcbiAgICAgICAgICBoZWlnaHQ6IDEwMHB4O1xuICAgICAgICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8Lz5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/components/header.tsx */'
-            )
-          );
-        };
-
-        /***/
-      },
-
-    /***/ './components/pages.tsx':
-      /*!******************************!*\
-  !*** ./components/pages.tsx ***!
-  \******************************/
-      /*! exports provided: default */
-      /***/ function(module, __webpack_exports__, __webpack_require__) {
-        'use strict';
-        __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! styled-jsx/style */ './node_modules/styled-jsx/style.js'
-        );
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          /*! react */ './node_modules/react/index.js'
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_1__
-        );
-        /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          /*! next/head */ './node_modules/next-server/dist/lib/head.js'
-        );
-        /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/ __webpack_require__.n(
-          next_head__WEBPACK_IMPORTED_MODULE_2__
-        );
-        var _jsxFileName = '/Users/ragingwind/Workspace/seoul.js.org/components/pages.tsx';
-
-        var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-        /* harmony default export */ __webpack_exports__['default'] = function(_ref) {
-          var title = _ref.title,
-            description = _ref.description,
-            children = _ref.children;
-          return __jsx(
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment,
-            null,
-            __jsx(
-              next_head__WEBPACK_IMPORTED_MODULE_2___default.a,
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 6
-                },
-                __self: this
-              },
-              __jsx(
-                'title',
-                {
-                  className: 'jsx-3063384700',
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 7
-                  },
-                  __self: this
-                },
-                title
-              ),
-              __jsx('meta', {
-                name: 'description',
-                content: description,
-                className: 'jsx-3063384700',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 8
-                },
-                __self: this
-              })
-            ),
-            __jsx(
-              styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
-              {
-                id: '3949462247',
-                __self: this
-              },
-              '.container.jsx-3063384700{overflow-x:hidden;background-image:url(/static/images/logo-ye-30.png);background-size:50%,50%;background-repeat:no-repeat,no-repeat;background-position:right -100px top -200px,left -450px center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9wYWdlcy50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBU2tCLEFBRzZCLGtCQUNrQyxvREFDM0Isd0JBQ2Msc0NBQ3lCLCtEQUNsRSIsImZpbGUiOiIvVXNlcnMvcmFnaW5nd2luZC9Xb3Jrc3BhY2Uvc2VvdWwuanMub3JnL2NvbXBvbmVudHMvcGFnZXMudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcblxuZXhwb3J0IGRlZmF1bHQgKHsgdGl0bGUsIGRlc2NyaXB0aW9uLCBjaGlsZHJlbiB9KSA9PiB7XG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxIZWFkPlxuICAgICAgICA8dGl0bGU+e3RpdGxlfTwvdGl0bGU+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9e2Rlc2NyaXB0aW9ufSAvPlxuICAgICAgPC9IZWFkPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICBvdmVyZmxvdy14OiBoaWRkZW47XG4gICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKC9zdGF0aWMvaW1hZ2VzL2xvZ28teWUtMzAucG5nKTtcbiAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDUwJSwgNTAlO1xuICAgICAgICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQsIG5vLXJlcGVhdDtcbiAgICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiByaWdodCAtMTAwcHggdG9wIC0yMDBweCwgbGVmdCAtNDUwcHggY2VudGVyO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICBodG1sLFxuICAgICAgICBib2R5IHtcbiAgICAgICAgICBoZWlnaHQ6IDEwMHZoO1xuICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzFiMWUzNTtcbiAgICAgICAgICBvdmVyZmxvdy14OiBoaWRkZW47XG4gICAgICAgICAgY29sb3I6ICNmZmY7XG4gICAgICAgIH1cblxuICAgICAgICBib2R5IHtcbiAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgbWluLWhlaWdodDogMTAwJTtcbiAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgbGluZS1oZWlnaHQ6IDEuNjU7XG4gICAgICAgICAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLCAnVWJ1bnR1JyxcbiAgICAgICAgICAgICdDYW50YXJlbGwnLCAnRmlyYSBTYW5zJywgJ0Ryb2lkIFNhbnMnLCAnSGVsdmV0aWNhIE5ldWUnLCBzYW5zLXNlcmlmO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgICAgIG1pbi13aWR0aDogMzIwcHg7XG4gICAgICAgICAgZGlyZWN0aW9uOiBsdHI7XG4gICAgICAgICAgZm9udC1mZWF0dXJlLXNldHRpbmdzOiAna2Vybic7XG4gICAgICAgICAgdGV4dC1yZW5kZXJpbmc6IG9wdGltaXplTGVnaWJpbGl0eTtcbiAgICAgICAgICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgICAgICAgICAtbW96LW9zeC1mb250LXNtb290aGluZzogZ3JheXNjYWxlO1xuICAgICAgICAgIHNjcm9sbC1iZWhhdmlvcjogc21vb3RoO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPntjaGlsZHJlbn08L2Rpdj5cbiAgICA8Lz5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/components/pages.tsx */'
-            ),
-            __jsx(
-              styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
-              {
-                id: '1013747890',
-                __self: this
-              },
-              "html,body{height:100vh;box-sizing:border-box;background-color:#1b1e35;overflow-x:hidden;color:#fff;}body{position:relative;min-height:100%;margin:0;line-height:1.65;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu', 'Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;font-size:16px;font-weight:400;min-width:320px;direction:ltr;font-feature-settings:'kern';text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-scroll-behavior:smooth;-moz-scroll-behavior:smooth;-ms-scroll-behavior:smooth;scroll-behavior:smooth;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9wYWdlcy50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0J5QixBQUl3QixBQVFLLGFBUEksS0FRTixnQkFDUCxDQVJnQixRQVNSLGlCQVJDLEFBVW9ELGtCQVQzRCxXQUNiLHdIQVNpQixlQUNDLGdCQUNBLGdCQUNGLGNBQ2UsNkJBQ0ssa0NBQ0MsbUNBQ0Qsa0NBQ1gsNkdBQ3pCIiwiZmlsZSI6Ii9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9wYWdlcy50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuXG5leHBvcnQgZGVmYXVsdCAoeyB0aXRsZSwgZGVzY3JpcHRpb24sIGNoaWxkcmVuIH0pID0+IHtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPEhlYWQ+XG4gICAgICAgIDx0aXRsZT57dGl0bGV9PC90aXRsZT5cbiAgICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD17ZGVzY3JpcHRpb259IC8+XG4gICAgICA8L0hlYWQ+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5jb250YWluZXIge1xuICAgICAgICAgIG92ZXJmbG93LXg6IGhpZGRlbjtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL3N0YXRpYy9pbWFnZXMvbG9nby15ZS0zMC5wbmcpO1xuICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogNTAlLCA1MCU7XG4gICAgICAgICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdCwgbm8tcmVwZWF0O1xuICAgICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IHJpZ2h0IC0xMDBweCB0b3AgLTIwMHB4LCBsZWZ0IC00NTBweCBjZW50ZXI7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICAgIGh0bWwsXG4gICAgICAgIGJvZHkge1xuICAgICAgICAgIGhlaWdodDogMTAwdmg7XG4gICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMWIxZTM1O1xuICAgICAgICAgIG92ZXJmbG93LXg6IGhpZGRlbjtcbiAgICAgICAgICBjb2xvcjogI2ZmZjtcbiAgICAgICAgfVxuXG4gICAgICAgIGJvZHkge1xuICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICBtaW4taGVpZ2h0OiAxMDAlO1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICBsaW5lLWhlaWdodDogMS42NTtcbiAgICAgICAgICBmb250LWZhbWlseTogLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCAnUm9ib3RvJywgJ094eWdlbicsICdVYnVudHUnLFxuICAgICAgICAgICAgJ0NhbnRhcmVsbCcsICdGaXJhIFNhbnMnLCAnRHJvaWQgU2FucycsICdIZWx2ZXRpY2EgTmV1ZScsIHNhbnMtc2VyaWY7XG4gICAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgICAgICAgbWluLXdpZHRoOiAzMjBweDtcbiAgICAgICAgICBkaXJlY3Rpb246IGx0cjtcbiAgICAgICAgICBmb250LWZlYXR1cmUtc2V0dGluZ3M6ICdrZXJuJztcbiAgICAgICAgICB0ZXh0LXJlbmRlcmluZzogb3B0aW1pemVMZWdpYmlsaXR5O1xuICAgICAgICAgIC13ZWJraXQtZm9udC1zbW9vdGhpbmc6IGFudGlhbGlhc2VkO1xuICAgICAgICAgIC1tb3otb3N4LWZvbnQtc21vb3RoaW5nOiBncmF5c2NhbGU7XG4gICAgICAgICAgc2Nyb2xsLWJlaGF2aW9yOiBzbW9vdGg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+e2NoaWxkcmVufTwvZGl2PlxuICAgIDwvPlxuICApO1xufTtcbiJdfQ== */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/components/pages.tsx */"
-            ),
-            __jsx(
-              'div',
-              {
-                className: 'jsx-3063384700' + ' ' + 'container',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 47
-                },
-                __self: this
-              },
-              children
-            )
-          );
-        };
-
-        /***/
-      },
-
-    /***/ './components/section.tsx':
-      /*!********************************!*\
-  !*** ./components/section.tsx ***!
-  \********************************/
-      /*! exports provided: default */
-      /***/ function(module, __webpack_exports__, __webpack_require__) {
-        'use strict';
-        __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! styled-jsx/style */ './node_modules/styled-jsx/style.js'
-        );
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          /*! react */ './node_modules/react/index.js'
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_1__
-        );
-        var _jsxFileName = '/Users/ragingwind/Workspace/seoul.js.org/components/section.tsx';
-
-        var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-        /* harmony default export */ __webpack_exports__['default'] = function(_ref) {
-          var children = _ref.children;
-          return __jsx(
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment,
-            null,
-            __jsx(
-              'div',
-              {
-                className: 'jsx-2550013292' + ' ' + 'root',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 4
-                },
-                __self: this
-              },
-              children
-            ),
-            __jsx(
-              styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
-              {
-                id: '2550013292',
-                __self: this
-              },
-              '.root.jsx-2550013292{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:0;width:100vw;height:auto;max-width:1080px;margin:30px auto;padding:1.5em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9zZWN0aW9uLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJa0IsQUFHd0IsMEVBQ04sT0FDSyxZQUNBLFlBQ0ssaUJBQ0EsaUJBQ0gsY0FDaEIiLCJmaWxlIjoiL1VzZXJzL3JhZ2luZ3dpbmQvV29ya3NwYWNlL3Nlb3VsLmpzLm9yZy9jb21wb25lbnRzL3NlY3Rpb24udHN4Iiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgKHsgY2hpbGRyZW4gfSkgPT4ge1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvb3RcIj57Y2hpbGRyZW59PC9kaXY+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5yb290IHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGxlZnQ6IDA7XG4gICAgICAgICAgd2lkdGg6IDEwMHZ3O1xuICAgICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgICAgICBtYXgtd2lkdGg6IDEwODBweDtcbiAgICAgICAgICBtYXJnaW46IDMwcHggYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAxLjVlbTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvPlxuICApO1xufTtcbiJdfQ== */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/components/section.tsx */'
-            )
-          );
-        };
-
-        /***/
-      },
-
     /***/ './node_modules/@babel/runtime-corejs2/core-js/array/from.js':
       /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
@@ -493,6 +282,25 @@
         }
 
         module.exports = _inherits;
+
+        /***/
+      },
+
+    /***/ './node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js':
+      /*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
+  \******************************************************************************/
+      /*! no static exports found */
+      /***/ function(module, exports) {
+        function _interopRequireDefault(obj) {
+          return obj && obj.__esModule
+            ? obj
+            : {
+                default: obj
+              };
+        }
+
+        module.exports = _interopRequireDefault;
 
         /***/
       },
@@ -4684,22 +4492,42 @@
         /***/
       },
 
-    /***/ './node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fragingwind%2FWorkspace%2Fseoul.js.org%2Fpages%2Findex.tsx!./':
-      /*!*********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fragingwind%2FWorkspace%2Fseoul.js.org%2Fpages%2Findex.tsx ***!
-  \*********************************************************************************************************************************************************************************/
+    /***/ './node_modules/next-server/head.js':
+      /*!******************************************!*\
+  !*** ./node_modules/next-server/head.js ***!
+  \******************************************/
+      /*! no static exports found */
+      /***/ function(module, exports, __webpack_require__) {
+        module.exports = __webpack_require__(
+          /*! ./dist/lib/head */ './node_modules/next-server/dist/lib/head.js'
+        );
+
+        /***/
+      },
+
+    /***/ './node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fragingwind%2FWorkspace%2Fseoul.js.org%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./':
+      /*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fragingwind%2FWorkspace%2Fseoul.js.org%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
+  \******************************************************************************************************************************************************************************************************************************************/
       /*! no static exports found */
       /***/ function(module, exports, __webpack_require__) {
         (window.__NEXT_P = window.__NEXT_P || []).push([
-          '/',
+          '/next/dist/pages/_error',
           function() {
-            var page = __webpack_require__(/*! ./pages/index.tsx */ './pages/index.tsx');
+            var page = __webpack_require__(
+              /*! ./node_modules/next/dist/pages/_error.js */ './node_modules/next/dist/pages/_error.js'
+            );
             if (true) {
-              module.hot.accept(/*! ./pages/index.tsx */ './pages/index.tsx', function() {
-                if (!next.router.components['/']) return;
-                var updatedPage = __webpack_require__(/*! ./pages/index.tsx */ './pages/index.tsx');
-                next.router.update('/', updatedPage.default || updatedPage);
-              });
+              module.hot.accept(
+                /*! ./node_modules/next/dist/pages/_error.js */ './node_modules/next/dist/pages/_error.js',
+                function() {
+                  if (!next.router.components['/next/dist/pages/_error']) return;
+                  var updatedPage = __webpack_require__(
+                    /*! ./node_modules/next/dist/pages/_error.js */ './node_modules/next/dist/pages/_error.js'
+                  );
+                  next.router.update('/next/dist/pages/_error', updatedPage.default || updatedPage);
+                }
+              );
             }
             return { page: page.default || page };
           }
@@ -4708,196 +4536,188 @@
         /***/
       },
 
-    /***/ './node_modules/process/browser.js':
-      /*!*****************************************!*\
-  !*** ./node_modules/process/browser.js ***!
-  \*****************************************/
+    /***/ './node_modules/next/dist/pages/_error.js':
+      /*!************************************************!*\
+  !*** ./node_modules/next/dist/pages/_error.js ***!
+  \************************************************/
       /*! no static exports found */
-      /***/ function(module, exports) {
-        // shim for using process in browser
-        var process = (module.exports = {});
+      /***/ function(module, exports, __webpack_require__) {
+        'use strict';
 
-        // cached from whatever global is present so that test runners that stub it
-        // don't break things.  But we need to wrap it in a try catch in case it is
-        // wrapped in strict mode code which doesn't define any globals.  It's inside a
-        // function because try/catches deoptimize in certain engines.
+        var _classCallCheck = __webpack_require__(
+          /*! @babel/runtime-corejs2/helpers/classCallCheck */ './node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js'
+        );
 
-        var cachedSetTimeout;
-        var cachedClearTimeout;
+        var _createClass = __webpack_require__(
+          /*! @babel/runtime-corejs2/helpers/createClass */ './node_modules/@babel/runtime-corejs2/helpers/createClass.js'
+        );
 
-        function defaultSetTimout() {
-          throw new Error('setTimeout has not been defined');
-        }
-        function defaultClearTimeout() {
-          throw new Error('clearTimeout has not been defined');
-        }
-        (function() {
-          try {
-            if (typeof setTimeout === 'function') {
-              cachedSetTimeout = setTimeout;
-            } else {
-              cachedSetTimeout = defaultSetTimout;
-            }
-          } catch (e) {
-            cachedSetTimeout = defaultSetTimout;
-          }
-          try {
-            if (typeof clearTimeout === 'function') {
-              cachedClearTimeout = clearTimeout;
-            } else {
-              cachedClearTimeout = defaultClearTimeout;
-            }
-          } catch (e) {
-            cachedClearTimeout = defaultClearTimeout;
-          }
-        })();
-        function runTimeout(fun) {
-          if (cachedSetTimeout === setTimeout) {
-            //normal enviroments in sane situations
-            return setTimeout(fun, 0);
-          }
-          // if setTimeout wasn't available but was latter defined
-          if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
-            cachedSetTimeout = setTimeout;
-            return setTimeout(fun, 0);
-          }
-          try {
-            // when when somebody has screwed with setTimeout but no I.E. maddness
-            return cachedSetTimeout(fun, 0);
-          } catch (e) {
-            try {
-              // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
-              return cachedSetTimeout.call(null, fun, 0);
-            } catch (e) {
-              // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
-              return cachedSetTimeout.call(this, fun, 0);
-            }
-          }
-        }
-        function runClearTimeout(marker) {
-          if (cachedClearTimeout === clearTimeout) {
-            //normal enviroments in sane situations
-            return clearTimeout(marker);
-          }
-          // if clearTimeout wasn't available but was latter defined
-          if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
-            cachedClearTimeout = clearTimeout;
-            return clearTimeout(marker);
-          }
-          try {
-            // when when somebody has screwed with setTimeout but no I.E. maddness
-            return cachedClearTimeout(marker);
-          } catch (e) {
-            try {
-              // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
-              return cachedClearTimeout.call(null, marker);
-            } catch (e) {
-              // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
-              // Some versions of I.E. have different rules for clearTimeout vs setTimeout
-              return cachedClearTimeout.call(this, marker);
-            }
-          }
-        }
-        var queue = [];
-        var draining = false;
-        var currentQueue;
-        var queueIndex = -1;
+        var _possibleConstructorReturn = __webpack_require__(
+          /*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ './node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js'
+        );
 
-        function cleanUpNextTick() {
-          if (!draining || !currentQueue) {
-            return;
-          }
-          draining = false;
-          if (currentQueue.length) {
-            queue = currentQueue.concat(queue);
-          } else {
-            queueIndex = -1;
-          }
-          if (queue.length) {
-            drainQueue();
-          }
-        }
+        var _getPrototypeOf = __webpack_require__(
+          /*! @babel/runtime-corejs2/helpers/getPrototypeOf */ './node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js'
+        );
 
-        function drainQueue() {
-          if (draining) {
-            return;
-          }
-          var timeout = runTimeout(cleanUpNextTick);
-          draining = true;
+        var _inherits = __webpack_require__(
+          /*! @babel/runtime-corejs2/helpers/inherits */ './node_modules/@babel/runtime-corejs2/helpers/inherits.js'
+        );
 
-          var len = queue.length;
-          while (len) {
-            currentQueue = queue;
-            queue = [];
-            while (++queueIndex < len) {
-              if (currentQueue) {
-                currentQueue[queueIndex].run();
-              }
-            }
-            queueIndex = -1;
-            len = queue.length;
-          }
-          currentQueue = null;
-          draining = false;
-          runClearTimeout(timeout);
-        }
+        var _interopRequireDefault = __webpack_require__(
+          /*! @babel/runtime-corejs2/helpers/interopRequireDefault */ './node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js'
+        );
 
-        process.nextTick = function(fun) {
-          var args = new Array(arguments.length - 1);
-          if (arguments.length > 1) {
-            for (var i = 1; i < arguments.length; i++) {
-              args[i - 1] = arguments[i];
-            }
-          }
-          queue.push(new Item(fun, args));
-          if (queue.length === 1 && !draining) {
-            runTimeout(drainQueue);
-          }
+        exports.__esModule = true;
+        exports['default'] = void 0;
+
+        var _react = _interopRequireDefault(
+          __webpack_require__(/*! react */ './node_modules/react/index.js')
+        );
+
+        var _head = _interopRequireDefault(
+          __webpack_require__(/*! next-server/head */ './node_modules/next-server/head.js')
+        );
+
+        var statusCodes = {
+          400: 'Bad Request',
+          404: 'This page could not be found',
+          405: 'Method Not Allowed',
+          500: 'Internal Server Error'
         };
+        /**
+         * `Error` component used for handling errors.
+         */
 
-        // v8 likes predictible objects
-        function Item(fun, array) {
-          this.fun = fun;
-          this.array = array;
-        }
-        Item.prototype.run = function() {
-          this.fun.apply(null, this.array);
-        };
-        process.title = 'browser';
-        process.browser = true;
-        process.env = {};
-        process.argv = [];
-        process.version = ''; // empty string to avoid regexp issues
-        process.versions = {};
+        var Error =
+          /*#__PURE__*/
+          (function(_react$default$Compon) {
+            _inherits(Error, _react$default$Compon);
 
-        function noop() {}
+            function Error() {
+              _classCallCheck(this, Error);
 
-        process.on = noop;
-        process.addListener = noop;
-        process.once = noop;
-        process.off = noop;
-        process.removeListener = noop;
-        process.removeAllListeners = noop;
-        process.emit = noop;
-        process.prependListener = noop;
-        process.prependOnceListener = noop;
+              return _possibleConstructorReturn(
+                this,
+                _getPrototypeOf(Error).apply(this, arguments)
+              );
+            }
 
-        process.listeners = function(name) {
-          return [];
-        };
+            _createClass(
+              Error,
+              [
+                {
+                  key: 'render',
+                  value: function render() {
+                    var statusCode = this.props.statusCode;
+                    var title =
+                      this.props.title ||
+                      statusCodes[statusCode] ||
+                      'An unexpected error has occurred';
+                    return _react['default'].createElement(
+                      'div',
+                      {
+                        style: styles.error
+                      },
+                      _react['default'].createElement(
+                        _head['default'],
+                        null,
+                        _react['default'].createElement('title', null, statusCode, ': ', title)
+                      ),
+                      _react['default'].createElement(
+                        'div',
+                        null,
+                        _react['default'].createElement('style', {
+                          dangerouslySetInnerHTML: {
+                            __html: 'body { margin: 0 }'
+                          }
+                        }),
+                        statusCode
+                          ? _react['default'].createElement(
+                              'h1',
+                              {
+                                style: styles.h1
+                              },
+                              statusCode
+                            )
+                          : null,
+                        _react['default'].createElement(
+                          'div',
+                          {
+                            style: styles.desc
+                          },
+                          _react['default'].createElement(
+                            'h2',
+                            {
+                              style: styles.h2
+                            },
+                            title,
+                            '.'
+                          )
+                        )
+                      )
+                    );
+                  }
+                }
+              ],
+              [
+                {
+                  key: 'getInitialProps',
+                  value: function getInitialProps(_ref) {
+                    var res = _ref.res,
+                      err = _ref.err;
+                    var statusCode =
+                      res && res.statusCode ? res.statusCode : err ? err.statusCode : 404;
+                    return {
+                      statusCode: statusCode
+                    };
+                  }
+                }
+              ]
+            );
 
-        process.binding = function(name) {
-          throw new Error('process.binding is not supported');
-        };
+            return Error;
+          })(_react['default'].Component);
 
-        process.cwd = function() {
-          return '/';
-        };
-        process.chdir = function(dir) {
-          throw new Error('process.chdir is not supported');
-        };
-        process.umask = function() {
-          return 0;
+        exports['default'] = Error;
+        Error.displayName = 'ErrorPage';
+        var styles = {
+          error: {
+            color: '#000',
+            background: '#fff',
+            fontFamily:
+              '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
+            height: '100vh',
+            textAlign: 'center',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center'
+          },
+          desc: {
+            display: 'inline-block',
+            textAlign: 'left',
+            lineHeight: '49px',
+            height: '49px',
+            verticalAlign: 'middle'
+          },
+          h1: {
+            display: 'inline-block',
+            borderRight: '1px solid rgba(0, 0, 0,.3)',
+            margin: 0,
+            marginRight: '20px',
+            padding: '10px 23px 10px 0',
+            fontSize: '24px',
+            fontWeight: 500,
+            verticalAlign: 'top'
+          },
+          h2: {
+            fontSize: '14px',
+            fontWeight: 'normal',
+            lineHeight: 'inherit',
+            margin: 0,
+            padding: 0
+          }
         };
 
         /***/
@@ -4916,1144 +4736,14 @@
         /***/
       },
 
-    /***/ './node_modules/string-hash/index.js':
-      /*!*******************************************!*\
-  !*** ./node_modules/string-hash/index.js ***!
-  \*******************************************/
-      /*! no static exports found */
-      /***/ function(module, exports, __webpack_require__) {
-        'use strict';
-
-        function hash(str) {
-          var hash = 5381,
-            i = str.length;
-
-          while (i) {
-            hash = (hash * 33) ^ str.charCodeAt(--i);
-          }
-
-          /* JavaScript does bitwise operations (like XOR, above) on 32-bit signed
-           * integers. Since we want the results to be always positive, convert the
-           * signed int to an unsigned by doing an unsigned bitshift. */
-          return hash >>> 0;
-        }
-
-        module.exports = hash;
-
-        /***/
-      },
-
-    /***/ './node_modules/styled-jsx/dist/lib/stylesheet.js':
-      /*!********************************************************!*\
-  !*** ./node_modules/styled-jsx/dist/lib/stylesheet.js ***!
-  \********************************************************/
-      /*! no static exports found */
-      /***/ function(module, exports, __webpack_require__) {
-        'use strict';
-        /* WEBPACK VAR INJECTION */ (function(process) {
-          Object.defineProperty(exports, '__esModule', {
-            value: true
-          });
-          exports.default = void 0;
-
-          function _classCallCheck(instance, Constructor) {
-            if (!(instance instanceof Constructor)) {
-              throw new TypeError('Cannot call a class as a function');
-            }
-          }
-
-          function _defineProperties(target, props) {
-            for (var i = 0; i < props.length; i++) {
-              var descriptor = props[i];
-              descriptor.enumerable = descriptor.enumerable || false;
-              descriptor.configurable = true;
-              if ('value' in descriptor) descriptor.writable = true;
-              Object.defineProperty(target, descriptor.key, descriptor);
-            }
-          }
-
-          function _createClass(Constructor, protoProps, staticProps) {
-            if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-            if (staticProps) _defineProperties(Constructor, staticProps);
-            return Constructor;
-          }
-
-          /*
-Based on Glamor's sheet
-https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92ca2879/src/sheet.js
-*/
-          var isProd = process.env && 'development' === 'production';
-
-          var isString = function isString(o) {
-            return Object.prototype.toString.call(o) === '[object String]';
-          };
-
-          var StyleSheet =
-            /*#__PURE__*/
-            (function() {
-              function StyleSheet() {
-                var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-                  _ref$name = _ref.name,
-                  name = _ref$name === void 0 ? 'stylesheet' : _ref$name,
-                  _ref$optimizeForSpeed = _ref.optimizeForSpeed,
-                  optimizeForSpeed =
-                    _ref$optimizeForSpeed === void 0 ? isProd : _ref$optimizeForSpeed,
-                  _ref$isBrowser = _ref.isBrowser,
-                  isBrowser =
-                    _ref$isBrowser === void 0 ? typeof window !== 'undefined' : _ref$isBrowser;
-
-                _classCallCheck(this, StyleSheet);
-
-                invariant(isString(name), '`name` must be a string');
-                this._name = name;
-                this._deletedRulePlaceholder = '#'.concat(name, '-deleted-rule____{}');
-                invariant(
-                  typeof optimizeForSpeed === 'boolean',
-                  '`optimizeForSpeed` must be a boolean'
-                );
-                this._optimizeForSpeed = optimizeForSpeed;
-                this._isBrowser = isBrowser;
-                this._serverSheet = undefined;
-                this._tags = [];
-                this._injected = false;
-                this._rulesCount = 0;
-                var node = this._isBrowser && document.querySelector('meta[property="csp-nonce"]');
-                this._nonce = node ? node.getAttribute('content') : null;
-              }
-
-              _createClass(StyleSheet, [
-                {
-                  key: 'setOptimizeForSpeed',
-                  value: function setOptimizeForSpeed(bool) {
-                    invariant(typeof bool === 'boolean', '`setOptimizeForSpeed` accepts a boolean');
-                    invariant(
-                      this._rulesCount === 0,
-                      'optimizeForSpeed cannot be when rules have already been inserted'
-                    );
-                    this.flush();
-                    this._optimizeForSpeed = bool;
-                    this.inject();
-                  }
-                },
-                {
-                  key: 'isOptimizeForSpeed',
-                  value: function isOptimizeForSpeed() {
-                    return this._optimizeForSpeed;
-                  }
-                },
-                {
-                  key: 'inject',
-                  value: function inject() {
-                    var _this = this;
-
-                    invariant(!this._injected, 'sheet already injected');
-                    this._injected = true;
-
-                    if (this._isBrowser && this._optimizeForSpeed) {
-                      this._tags[0] = this.makeStyleTag(this._name);
-                      this._optimizeForSpeed = 'insertRule' in this.getSheet();
-
-                      if (!this._optimizeForSpeed) {
-                        if (!isProd) {
-                          console.warn(
-                            'StyleSheet: optimizeForSpeed mode not supported falling back to standard mode.'
-                          );
-                        }
-
-                        this.flush();
-                        this._injected = true;
-                      }
-
-                      return;
-                    }
-
-                    this._serverSheet = {
-                      cssRules: [],
-                      insertRule: function insertRule(rule, index) {
-                        if (typeof index === 'number') {
-                          _this._serverSheet.cssRules[index] = {
-                            cssText: rule
-                          };
-                        } else {
-                          _this._serverSheet.cssRules.push({
-                            cssText: rule
-                          });
-                        }
-
-                        return index;
-                      },
-                      deleteRule: function deleteRule(index) {
-                        _this._serverSheet.cssRules[index] = null;
-                      }
-                    };
-                  }
-                },
-                {
-                  key: 'getSheetForTag',
-                  value: function getSheetForTag(tag) {
-                    if (tag.sheet) {
-                      return tag.sheet;
-                    } // this weirdness brought to you by firefox
-
-                    for (var i = 0; i < document.styleSheets.length; i++) {
-                      if (document.styleSheets[i].ownerNode === tag) {
-                        return document.styleSheets[i];
-                      }
-                    }
-                  }
-                },
-                {
-                  key: 'getSheet',
-                  value: function getSheet() {
-                    return this.getSheetForTag(this._tags[this._tags.length - 1]);
-                  }
-                },
-                {
-                  key: 'insertRule',
-                  value: function insertRule(rule, index) {
-                    invariant(isString(rule), '`insertRule` accepts only strings');
-
-                    if (!this._isBrowser) {
-                      if (typeof index !== 'number') {
-                        index = this._serverSheet.cssRules.length;
-                      }
-
-                      this._serverSheet.insertRule(rule, index);
-
-                      return this._rulesCount++;
-                    }
-
-                    if (this._optimizeForSpeed) {
-                      var sheet = this.getSheet();
-
-                      if (typeof index !== 'number') {
-                        index = sheet.cssRules.length;
-                      } // this weirdness for perf, and chrome's weird bug
-                      // https://stackoverflow.com/questions/20007992/chrome-suddenly-stopped-accepting-insertrule
-
-                      try {
-                        sheet.insertRule(rule, index);
-                      } catch (error) {
-                        if (!isProd) {
-                          console.warn(
-                            'StyleSheet: illegal rule: \n\n'.concat(
-                              rule,
-                              '\n\nSee https://stackoverflow.com/q/20007992 for more info'
-                            )
-                          );
-                        }
-
-                        return -1;
-                      }
-                    } else {
-                      var insertionPoint = this._tags[index];
-
-                      this._tags.push(this.makeStyleTag(this._name, rule, insertionPoint));
-                    }
-
-                    return this._rulesCount++;
-                  }
-                },
-                {
-                  key: 'replaceRule',
-                  value: function replaceRule(index, rule) {
-                    if (this._optimizeForSpeed || !this._isBrowser) {
-                      var sheet = this._isBrowser ? this.getSheet() : this._serverSheet;
-
-                      if (!rule.trim()) {
-                        rule = this._deletedRulePlaceholder;
-                      }
-
-                      if (!sheet.cssRules[index]) {
-                        // @TBD Should we throw an error?
-                        return index;
-                      }
-
-                      sheet.deleteRule(index);
-
-                      try {
-                        sheet.insertRule(rule, index);
-                      } catch (error) {
-                        if (!isProd) {
-                          console.warn(
-                            'StyleSheet: illegal rule: \n\n'.concat(
-                              rule,
-                              '\n\nSee https://stackoverflow.com/q/20007992 for more info'
-                            )
-                          );
-                        } // In order to preserve the indices we insert a deleteRulePlaceholder
-
-                        sheet.insertRule(this._deletedRulePlaceholder, index);
-                      }
-                    } else {
-                      var tag = this._tags[index];
-                      invariant(tag, 'old rule at index `'.concat(index, '` not found'));
-                      tag.textContent = rule;
-                    }
-
-                    return index;
-                  }
-                },
-                {
-                  key: 'deleteRule',
-                  value: function deleteRule(index) {
-                    if (!this._isBrowser) {
-                      this._serverSheet.deleteRule(index);
-
-                      return;
-                    }
-
-                    if (this._optimizeForSpeed) {
-                      this.replaceRule(index, '');
-                    } else {
-                      var tag = this._tags[index];
-                      invariant(tag, 'rule at index `'.concat(index, '` not found'));
-                      tag.parentNode.removeChild(tag);
-                      this._tags[index] = null;
-                    }
-                  }
-                },
-                {
-                  key: 'flush',
-                  value: function flush() {
-                    this._injected = false;
-                    this._rulesCount = 0;
-
-                    if (this._isBrowser) {
-                      this._tags.forEach(function(tag) {
-                        return tag && tag.parentNode.removeChild(tag);
-                      });
-
-                      this._tags = [];
-                    } else {
-                      // simpler on server
-                      this._serverSheet.cssRules = [];
-                    }
-                  }
-                },
-                {
-                  key: 'cssRules',
-                  value: function cssRules() {
-                    var _this2 = this;
-
-                    if (!this._isBrowser) {
-                      return this._serverSheet.cssRules;
-                    }
-
-                    return this._tags.reduce(function(rules, tag) {
-                      if (tag) {
-                        rules = rules.concat(
-                          _this2.getSheetForTag(tag).cssRules.map(function(rule) {
-                            return rule.cssText === _this2._deletedRulePlaceholder ? null : rule;
-                          })
-                        );
-                      } else {
-                        rules.push(null);
-                      }
-
-                      return rules;
-                    }, []);
-                  }
-                },
-                {
-                  key: 'makeStyleTag',
-                  value: function makeStyleTag(name, cssString, relativeToTag) {
-                    if (cssString) {
-                      invariant(
-                        isString(cssString),
-                        'makeStyleTag acceps only strings as second parameter'
-                      );
-                    }
-
-                    var tag = document.createElement('style');
-                    if (this._nonce) tag.setAttribute('nonce', this._nonce);
-                    tag.type = 'text/css';
-                    tag.setAttribute('data-'.concat(name), '');
-
-                    if (cssString) {
-                      tag.appendChild(document.createTextNode(cssString));
-                    }
-
-                    var head = document.head || document.getElementsByTagName('head')[0];
-
-                    if (relativeToTag) {
-                      head.insertBefore(tag, relativeToTag);
-                    } else {
-                      head.appendChild(tag);
-                    }
-
-                    return tag;
-                  }
-                },
-                {
-                  key: 'length',
-                  get: function get() {
-                    return this._rulesCount;
-                  }
-                }
-              ]);
-
-              return StyleSheet;
-            })();
-
-          exports.default = StyleSheet;
-
-          function invariant(condition, message) {
-            if (!condition) {
-              throw new Error('StyleSheet: '.concat(message, '.'));
-            }
-          }
-          /* WEBPACK VAR INJECTION */
-        }.call(
-          this,
-          __webpack_require__(
-            /*! ./../../../process/browser.js */ './node_modules/process/browser.js'
-          )
-        ));
-
-        /***/
-      },
-
-    /***/ './node_modules/styled-jsx/dist/style.js':
-      /*!***********************************************!*\
-  !*** ./node_modules/styled-jsx/dist/style.js ***!
-  \***********************************************/
-      /*! no static exports found */
-      /***/ function(module, exports, __webpack_require__) {
-        'use strict';
-
-        Object.defineProperty(exports, '__esModule', {
-          value: true
-        });
-        exports.flush = flush;
-        exports.default = void 0;
-
-        var _react = __webpack_require__(/*! react */ './node_modules/react/index.js');
-
-        var _stylesheetRegistry = _interopRequireDefault(
-          __webpack_require__(
-            /*! ./stylesheet-registry */ './node_modules/styled-jsx/dist/stylesheet-registry.js'
-          )
-        );
-
-        function _interopRequireDefault(obj) {
-          return obj && obj.__esModule ? obj : { default: obj };
-        }
-
-        function _typeof(obj) {
-          if (typeof Symbol === 'function' && typeof Symbol.iterator === 'symbol') {
-            _typeof = function _typeof(obj) {
-              return typeof obj;
-            };
-          } else {
-            _typeof = function _typeof(obj) {
-              return obj &&
-                typeof Symbol === 'function' &&
-                obj.constructor === Symbol &&
-                obj !== Symbol.prototype
-                ? 'symbol'
-                : typeof obj;
-            };
-          }
-          return _typeof(obj);
-        }
-
-        function _classCallCheck(instance, Constructor) {
-          if (!(instance instanceof Constructor)) {
-            throw new TypeError('Cannot call a class as a function');
-          }
-        }
-
-        function _defineProperties(target, props) {
-          for (var i = 0; i < props.length; i++) {
-            var descriptor = props[i];
-            descriptor.enumerable = descriptor.enumerable || false;
-            descriptor.configurable = true;
-            if ('value' in descriptor) descriptor.writable = true;
-            Object.defineProperty(target, descriptor.key, descriptor);
-          }
-        }
-
-        function _createClass(Constructor, protoProps, staticProps) {
-          if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-          if (staticProps) _defineProperties(Constructor, staticProps);
-          return Constructor;
-        }
-
-        function _possibleConstructorReturn(self, call) {
-          if (call && (_typeof(call) === 'object' || typeof call === 'function')) {
-            return call;
-          }
-          return _assertThisInitialized(self);
-        }
-
-        function _assertThisInitialized(self) {
-          if (self === void 0) {
-            throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-          }
-          return self;
-        }
-
-        function _getPrototypeOf(o) {
-          _getPrototypeOf = Object.setPrototypeOf
-            ? Object.getPrototypeOf
-            : function _getPrototypeOf(o) {
-                return o.__proto__ || Object.getPrototypeOf(o);
-              };
-          return _getPrototypeOf(o);
-        }
-
-        function _inherits(subClass, superClass) {
-          if (typeof superClass !== 'function' && superClass !== null) {
-            throw new TypeError('Super expression must either be null or a function');
-          }
-          subClass.prototype = Object.create(superClass && superClass.prototype, {
-            constructor: { value: subClass, writable: true, configurable: true }
-          });
-          if (superClass) _setPrototypeOf(subClass, superClass);
-        }
-
-        function _setPrototypeOf(o, p) {
-          _setPrototypeOf =
-            Object.setPrototypeOf ||
-            function _setPrototypeOf(o, p) {
-              o.__proto__ = p;
-              return o;
-            };
-          return _setPrototypeOf(o, p);
-        }
-
-        var styleSheetRegistry = new _stylesheetRegistry.default();
-
-        var JSXStyle =
-          /*#__PURE__*/
-          (function(_Component) {
-            _inherits(JSXStyle, _Component);
-
-            function JSXStyle(props) {
-              var _this;
-
-              _classCallCheck(this, JSXStyle);
-
-              _this = _possibleConstructorReturn(this, _getPrototypeOf(JSXStyle).call(this, props));
-              _this.prevProps = {};
-              return _this;
-            }
-
-            _createClass(
-              JSXStyle,
-              [
-                {
-                  key: 'shouldComponentUpdate',
-                  // probably faster than PureComponent (shallowEqual)
-                  value: function shouldComponentUpdate(otherProps) {
-                    return (
-                      this.props.id !== otherProps.id || // We do this check because `dynamic` is an array of strings or undefined.
-                      // These are the computed values for dynamic styles.
-                      String(this.props.dynamic) !== String(otherProps.dynamic)
-                    );
-                  }
-                },
-                {
-                  key: 'componentWillUnmount',
-                  value: function componentWillUnmount() {
-                    styleSheetRegistry.remove(this.props);
-                  }
-                },
-                {
-                  key: 'render',
-                  value: function render() {
-                    // This is a workaround to make the side effect async safe in the "render" phase.
-                    // See https://github.com/zeit/styled-jsx/pull/484
-                    if (this.shouldComponentUpdate(this.prevProps)) {
-                      // Updates
-                      if (this.prevProps.id) {
-                        styleSheetRegistry.remove(this.prevProps);
-                      }
-
-                      styleSheetRegistry.add(this.props);
-                      this.prevProps = this.props;
-                    }
-
-                    return null;
-                  }
-                }
-              ],
-              [
-                {
-                  key: 'dynamic',
-                  value: function dynamic(info) {
-                    return info
-                      .map(function(tagInfo) {
-                        var baseId = tagInfo[0];
-                        var props = tagInfo[1];
-                        return styleSheetRegistry.computeId(baseId, props);
-                      })
-                      .join(' ');
-                  }
-                }
-              ]
-            );
-
-            return JSXStyle;
-          })(_react.Component);
-
-        exports.default = JSXStyle;
-
-        function flush() {
-          var cssRules = styleSheetRegistry.cssRules();
-          styleSheetRegistry.flush();
-          return cssRules;
-        }
-
-        /***/
-      },
-
-    /***/ './node_modules/styled-jsx/dist/stylesheet-registry.js':
-      /*!*************************************************************!*\
-  !*** ./node_modules/styled-jsx/dist/stylesheet-registry.js ***!
-  \*************************************************************/
-      /*! no static exports found */
-      /***/ function(module, exports, __webpack_require__) {
-        'use strict';
-
-        Object.defineProperty(exports, '__esModule', {
-          value: true
-        });
-        exports.default = void 0;
-
-        var _stringHash = _interopRequireDefault(
-          __webpack_require__(/*! string-hash */ './node_modules/string-hash/index.js')
-        );
-
-        var _stylesheet = _interopRequireDefault(
-          __webpack_require__(
-            /*! ./lib/stylesheet */ './node_modules/styled-jsx/dist/lib/stylesheet.js'
-          )
-        );
-
-        function _interopRequireDefault(obj) {
-          return obj && obj.__esModule ? obj : { default: obj };
-        }
-
-        function _classCallCheck(instance, Constructor) {
-          if (!(instance instanceof Constructor)) {
-            throw new TypeError('Cannot call a class as a function');
-          }
-        }
-
-        function _defineProperties(target, props) {
-          for (var i = 0; i < props.length; i++) {
-            var descriptor = props[i];
-            descriptor.enumerable = descriptor.enumerable || false;
-            descriptor.configurable = true;
-            if ('value' in descriptor) descriptor.writable = true;
-            Object.defineProperty(target, descriptor.key, descriptor);
-          }
-        }
-
-        function _createClass(Constructor, protoProps, staticProps) {
-          if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-          if (staticProps) _defineProperties(Constructor, staticProps);
-          return Constructor;
-        }
-
-        var sanitize = function sanitize(rule) {
-          return rule.replace(/\/style/gi, '\\/style');
-        };
-
-        var StyleSheetRegistry =
-          /*#__PURE__*/
-          (function() {
-            function StyleSheetRegistry() {
-              var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-                _ref$styleSheet = _ref.styleSheet,
-                styleSheet = _ref$styleSheet === void 0 ? null : _ref$styleSheet,
-                _ref$optimizeForSpeed = _ref.optimizeForSpeed,
-                optimizeForSpeed = _ref$optimizeForSpeed === void 0 ? false : _ref$optimizeForSpeed,
-                _ref$isBrowser = _ref.isBrowser,
-                isBrowser =
-                  _ref$isBrowser === void 0 ? typeof window !== 'undefined' : _ref$isBrowser;
-
-              _classCallCheck(this, StyleSheetRegistry);
-
-              this._sheet =
-                styleSheet ||
-                new _stylesheet.default({
-                  name: 'styled-jsx',
-                  optimizeForSpeed: optimizeForSpeed
-                });
-
-              this._sheet.inject();
-
-              if (styleSheet && typeof optimizeForSpeed === 'boolean') {
-                this._sheet.setOptimizeForSpeed(optimizeForSpeed);
-
-                this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
-              }
-
-              this._isBrowser = isBrowser;
-              this._fromServer = undefined;
-              this._indices = {};
-              this._instancesCounts = {};
-              this.computeId = this.createComputeId();
-              this.computeSelector = this.createComputeSelector();
-            }
-
-            _createClass(StyleSheetRegistry, [
-              {
-                key: 'add',
-                value: function add(props) {
-                  var _this = this;
-
-                  if (undefined === this._optimizeForSpeed) {
-                    this._optimizeForSpeed = Array.isArray(props.children);
-
-                    this._sheet.setOptimizeForSpeed(this._optimizeForSpeed);
-
-                    this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
-                  }
-
-                  if (this._isBrowser && !this._fromServer) {
-                    this._fromServer = this.selectFromServer();
-                    this._instancesCounts = Object.keys(this._fromServer).reduce(function(
-                      acc,
-                      tagName
-                    ) {
-                      acc[tagName] = 0;
-                      return acc;
-                    },
-                    {});
-                  }
-
-                  var _this$getIdAndRules = this.getIdAndRules(props),
-                    styleId = _this$getIdAndRules.styleId,
-                    rules = _this$getIdAndRules.rules; // Deduping: just increase the instances count.
-
-                  if (styleId in this._instancesCounts) {
-                    this._instancesCounts[styleId] += 1;
-                    return;
-                  }
-
-                  var indices = rules
-                    .map(function(rule) {
-                      return _this._sheet.insertRule(rule);
-                    }) // Filter out invalid rules
-                    .filter(function(index) {
-                      return index !== -1;
-                    });
-                  this._indices[styleId] = indices;
-                  this._instancesCounts[styleId] = 1;
-                }
-              },
-              {
-                key: 'remove',
-                value: function remove(props) {
-                  var _this2 = this;
-
-                  var _this$getIdAndRules2 = this.getIdAndRules(props),
-                    styleId = _this$getIdAndRules2.styleId;
-
-                  invariant(
-                    styleId in this._instancesCounts,
-                    'styleId: `'.concat(styleId, '` not found')
-                  );
-                  this._instancesCounts[styleId] -= 1;
-
-                  if (this._instancesCounts[styleId] < 1) {
-                    var tagFromServer = this._fromServer && this._fromServer[styleId];
-
-                    if (tagFromServer) {
-                      tagFromServer.parentNode.removeChild(tagFromServer);
-                      delete this._fromServer[styleId];
-                    } else {
-                      this._indices[styleId].forEach(function(index) {
-                        return _this2._sheet.deleteRule(index);
-                      });
-
-                      delete this._indices[styleId];
-                    }
-
-                    delete this._instancesCounts[styleId];
-                  }
-                }
-              },
-              {
-                key: 'update',
-                value: function update(props, nextProps) {
-                  this.add(nextProps);
-                  this.remove(props);
-                }
-              },
-              {
-                key: 'flush',
-                value: function flush() {
-                  this._sheet.flush();
-
-                  this._sheet.inject();
-
-                  this._fromServer = undefined;
-                  this._indices = {};
-                  this._instancesCounts = {};
-                  this.computeId = this.createComputeId();
-                  this.computeSelector = this.createComputeSelector();
-                }
-              },
-              {
-                key: 'cssRules',
-                value: function cssRules() {
-                  var _this3 = this;
-
-                  var fromServer = this._fromServer
-                    ? Object.keys(this._fromServer).map(function(styleId) {
-                        return [styleId, _this3._fromServer[styleId]];
-                      })
-                    : [];
-
-                  var cssRules = this._sheet.cssRules();
-
-                  return fromServer.concat(
-                    Object.keys(this._indices)
-                      .map(function(styleId) {
-                        return [
-                          styleId,
-                          _this3._indices[styleId]
-                            .map(function(index) {
-                              return cssRules[index].cssText;
-                            })
-                            .join(_this3._optimizeForSpeed ? '' : '\n')
-                        ];
-                      }) // filter out empty rules
-                      .filter(function(rule) {
-                        return Boolean(rule[1]);
-                      })
-                  );
-                }
-                /**
-                 * createComputeId
-                 *
-                 * Creates a function to compute and memoize a jsx id from a basedId and optionally props.
-                 */
-              },
-              {
-                key: 'createComputeId',
-                value: function createComputeId() {
-                  var cache = {};
-                  return function(baseId, props) {
-                    if (!props) {
-                      return 'jsx-'.concat(baseId);
-                    }
-
-                    var propsToString = String(props);
-                    var key = baseId + propsToString; // return `jsx-${hashString(`${baseId}-${propsToString}`)}`
-
-                    if (!cache[key]) {
-                      cache[key] = 'jsx-'.concat(
-                        (0, _stringHash.default)(''.concat(baseId, '-').concat(propsToString))
-                      );
-                    }
-
-                    return cache[key];
-                  };
-                }
-                /**
-                 * createComputeSelector
-                 *
-                 * Creates a function to compute and memoize dynamic selectors.
-                 */
-              },
-              {
-                key: 'createComputeSelector',
-                value: function createComputeSelector() {
-                  var selectoPlaceholderRegexp =
-                    arguments.length > 0 && arguments[0] !== undefined
-                      ? arguments[0]
-                      : /__jsx-style-dynamic-selector/g;
-                  var cache = {};
-                  return function(id, css) {
-                    // Sanitize SSR-ed CSS.
-                    // Client side code doesn't need to be sanitized since we use
-                    // document.createTextNode (dev) and the CSSOM api sheet.insertRule (prod).
-                    if (!this._isBrowser) {
-                      css = sanitize(css);
-                    }
-
-                    var idcss = id + css;
-
-                    if (!cache[idcss]) {
-                      cache[idcss] = css.replace(selectoPlaceholderRegexp, id);
-                    }
-
-                    return cache[idcss];
-                  };
-                }
-              },
-              {
-                key: 'getIdAndRules',
-                value: function getIdAndRules(props) {
-                  var _this4 = this;
-
-                  var css = props.children,
-                    dynamic = props.dynamic,
-                    id = props.id;
-
-                  if (dynamic) {
-                    var styleId = this.computeId(id, dynamic);
-                    return {
-                      styleId: styleId,
-                      rules: Array.isArray(css)
-                        ? css.map(function(rule) {
-                            return _this4.computeSelector(styleId, rule);
-                          })
-                        : [this.computeSelector(styleId, css)]
-                    };
-                  }
-
-                  return {
-                    styleId: this.computeId(id),
-                    rules: Array.isArray(css) ? css : [css]
-                  };
-                }
-                /**
-                 * selectFromServer
-                 *
-                 * Collects style tags from the document with id __jsx-XXX
-                 */
-              },
-              {
-                key: 'selectFromServer',
-                value: function selectFromServer() {
-                  var elements = Array.prototype.slice.call(
-                    document.querySelectorAll('[id^="__jsx-"]')
-                  );
-                  return elements.reduce(function(acc, element) {
-                    var id = element.id.slice(2);
-                    acc[id] = element;
-                    return acc;
-                  }, {});
-                }
-              }
-            ]);
-
-            return StyleSheetRegistry;
-          })();
-
-        exports.default = StyleSheetRegistry;
-
-        function invariant(condition, message) {
-          if (!condition) {
-            throw new Error('StyleSheetRegistry: '.concat(message, '.'));
-          }
-        }
-
-        /***/
-      },
-
-    /***/ './node_modules/styled-jsx/style.js':
-      /*!******************************************!*\
-  !*** ./node_modules/styled-jsx/style.js ***!
-  \******************************************/
+    /***/ 1:
+      /*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fragingwind%2FWorkspace%2Fseoul.js.org%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
+  \**********************************************************************************************************************************************************************************************/
       /*! no static exports found */
       /***/ function(module, exports, __webpack_require__) {
         module.exports = __webpack_require__(
-          /*! ./dist/style */ './node_modules/styled-jsx/dist/style.js'
-        );
-
-        /***/
-      },
-
-    /***/ './pages/index.tsx':
-      /*!*************************!*\
-  !*** ./pages/index.tsx ***!
-  \*************************/
-      /*! exports provided: default */
-      /***/ function(module, __webpack_exports__, __webpack_require__) {
-        'use strict';
-        __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! styled-jsx/style */ './node_modules/styled-jsx/style.js'
-        );
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          /*! react */ './node_modules/react/index.js'
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_1__
-        );
-        /* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-          /*! ../components/header */ './components/header.tsx'
-        );
-        /* harmony import */ var _components_pages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-          /*! ../components/pages */ './components/pages.tsx'
-        );
-        /* harmony import */ var _components_section__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          /*! ../components/section */ './components/section.tsx'
-        );
-        var _jsxFileName = '/Users/ragingwind/Workspace/seoul.js.org/pages/index.tsx';
-
-        var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-        /* harmony default export */ __webpack_exports__['default'] = function() {
-          return __jsx(
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment,
-            null,
-            __jsx(_components_header__WEBPACK_IMPORTED_MODULE_2__['default'], {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 11
-              },
-              __self: this
-            }),
-            __jsx(
-              _components_pages__WEBPACK_IMPORTED_MODULE_3__['default'],
-              {
-                title: 'Seoul.js | Seoul.js',
-                description: 'Seoul.js - JS Community in Seoul',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 13
-                },
-                __self: this
-              },
-              __jsx(
-                _components_section__WEBPACK_IMPORTED_MODULE_4__['default'],
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 14
-                  },
-                  __self: this
-                },
-                __jsx(
-                  'div',
-                  {
-                    className: 'jsx-2253487491' + ' ' + 'hero',
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 15
-                    },
-                    __self: this
-                  },
-                  __jsx(
-                    'div',
-                    {
-                      className: 'jsx-2253487491' + ' ' + 'logo',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 16
-                      },
-                      __self: this
-                    },
-                    __jsx('img', {
-                      src: '/static/images/logo-sq.png',
-                      alt: '',
-                      className: 'jsx-2253487491',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 17
-                      },
-                      __self: this
-                    })
-                  ),
-                  __jsx(
-                    'div',
-                    {
-                      className: 'jsx-2253487491' + ' ' + 'title',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 19
-                      },
-                      __self: this
-                    },
-                    __jsx(
-                      'h1',
-                      {
-                        className: 'jsx-2253487491',
-                        __source: {
-                          fileName: _jsxFileName,
-                          lineNumber: 20
-                        },
-                        __self: this
-                      },
-                      'Seoul.js'
-                    ),
-                    __jsx(
-                      'h2',
-                      {
-                        className: 'jsx-2253487491',
-                        __source: {
-                          fileName: _jsxFileName,
-                          lineNumber: 21
-                        },
-                        __self: this
-                      },
-                      'Javascript is everywhere not only in Seoul'
-                    ),
-                    __jsx(
-                      'p',
-                      {
-                        className: 'jsx-2253487491',
-                        __source: {
-                          fileName: _jsxFileName,
-                          lineNumber: 22
-                        },
-                        __self: this
-                      },
-                      '\uB113\uACE0 \uC595\uC740 \uC790\uBC14\uC2A4\uD06C\uB9BD\uD2B8\uC758 \uC9C0\uC2DD\uACFC \uB9E4\uB825\uC73C\uB85C \uC5EC\uB7EC\uBD84\uC758 \uBB34\uB98E\uACFC \uBA38\uB9AC\uB97C \uCE58\uAC8C \uB9CC\uB4E4 \uB300\uD55C\uBBFC\uAD6D \uC9C0\uC5ED\uAE30\uBC18 \uD504\uB85C\uC81D\uD2B8. \uD2B8\uC704\uCE58 \uD50C\uB7AB\uD3FC\uC744 \uC774\uC6A9\uD574\uC11C \uC2DC\uAC04, \uACF5\uAC04\uC758 \uC81C\uC57D\uC744 \uB118\uC5B4\uC11C\uB294 \uC0C8\uB85C\uC6B4 \uAC1C\uBC1C \uBB38\uD654\uB97C \uB9CC\uB4ED\uB2C8\uB2E4. Seoul.js \uC758 Code of Conduct \uB97C \uB530\uB985\uB2C8\uB2E4.'
-                    ),
-                    __jsx(
-                      'p',
-                      {
-                        className: 'jsx-2253487491',
-                        __source: {
-                          fileName: _jsxFileName,
-                          lineNumber: 27
-                        },
-                        __self: this
-                      },
-                      'Twitter: ',
-                      __jsx(
-                        'a',
-                        {
-                          href: 'https://twitter.com/seoul_js_org',
-                          className: 'jsx-2253487491',
-                          __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 27
-                          },
-                          __self: this
-                        },
-                        '@seoul_js_org'
-                      )
-                    )
-                  )
-                )
-              )
-            ),
-            __jsx(
-              styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
-              {
-                id: '2253487491',
-                __self: this
-              },
-              '.hero.jsx-2253487491{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;overflow:hidden;margin:0px;}.title.jsx-2253487491{margin-left:30px;color:#f3f3f3;}.title.jsx-2253487491 h1.jsx-2253487491{font-size:5em;color:#fefefe;margin:0;margin:0px;line-height:1em;}.title.jsx-2253487491 h2.jsx-2253487491{font-size:1.5em;margin:0;font-family:Lato;margin:0px;opacity:0.7;}.title.jsx-2253487491 p.jsx-2253487491{font-size:1.2em;width:28em;line-height:1.5em;}.logo.jsx-2253487491 img.jsx-2253487491{width:300px;}.upcoming-events.jsx-2253487491{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvcGFnZXMvaW5kZXgudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQStCa0IsQUFHd0IsQUFPSSxBQUtILEFBUUUsQUFRQSxBQU1KLEFBSUMsWUFIZixFQXRCZ0IsRUFRTCxBQVFFLENBckJHLFFBY0csRUFRQyxDQWhCVCxHQUxYLE1BTWEsS0FRQSxHQVFiLEdBZmtCLEtBUUosV0FQZCxDQVFBLFNBeEJhLEFBc0NXLFdBckNOLGdCQUNMLFdBQ2Isd0NBb0NhLFdBQ2IiLCJmaWxlIjoiL1VzZXJzL3JhZ2luZ3dpbmQvV29ya3NwYWNlL3Nlb3VsLmpzLm9yZy9wYWdlcy9pbmRleC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZGVyIGZyb20gJy4uL2NvbXBvbmVudHMvaGVhZGVyJztcbmltcG9ydCBQYWdlcyBmcm9tICcuLi9jb21wb25lbnRzL3BhZ2VzJztcbmltcG9ydCBOYXYgZnJvbSAnLi4vY29tcG9uZW50cy9uYXYnO1xuaW1wb3J0IFNlY3Rpb24gZnJvbSAnLi4vY29tcG9uZW50cy9zZWN0aW9uJztcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vY29tcG9uZW50cy9mb290ZXInO1xuaW1wb3J0IFplaXRFdmVudCBmcm9tICcuLi9jb21wb25lbnRzL2V2ZW50cy96ZWl0JztcblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4ge1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8SGVhZGVyPlxuICAgICAgPC9IZWFkZXI+XG4gICAgICA8UGFnZXMgdGl0bGU9XCJTZW91bC5qcyB8IFNlb3VsLmpzXCIgZGVzY3JpcHRpb249XCJTZW91bC5qcyAtIEpTIENvbW11bml0eSBpbiBTZW91bFwiPlxuICAgICAgICA8U2VjdGlvbj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlcm9cIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibG9nb1wiPlxuICAgICAgICAgICAgICA8aW1nIHNyYz1cIi9zdGF0aWMvaW1hZ2VzL2xvZ28tc3EucG5nXCIgYWx0PVwiXCIgLz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0aXRsZVwiPlxuICAgICAgICAgICAgICA8aDE+U2VvdWwuanM8L2gxPlxuICAgICAgICAgICAgICA8aDI+SmF2YXNjcmlwdCBpcyBldmVyeXdoZXJlIG5vdCBvbmx5IGluIFNlb3VsPC9oMj5cbiAgICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgICAg64ST6rOgIOyWleydgCDsnpDrsJTsiqTtgazrpr3tirjsnZgg7KeA7Iud6rO8IOunpOugpeycvOuhnCDsl6zrn6zrtoTsnZgg66y066aO6rO8IOuouOumrOulvCDsuZjqsowg66eM65OkIOuMgO2VnOuvvOq1rVxuICAgICAgICAgICAgICAgIOyngOyXreq4sOuwmCDtlITroZzsoJ3tirguIO2KuOychOy5mCDtlIzrnqvtj7zsnYQg7J207Jqp7ZW07IScIOyLnOqwhCwg6rO16rCE7J2YIOygnOyVveydhCDrhJjslrTshJzripQg7IOI66Gc7Jq0IOqwnOuwnFxuICAgICAgICAgICAgICAgIOusuO2ZlOulvCDrp4zrk63ri4jri6QuIFNlb3VsLmpzIOydmCBDb2RlIG9mIENvbmR1Y3Qg66W8IOuUsOumheuLiOuLpC5cbiAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICA8cD5Ud2l0dGVyOiA8YSBocmVmPVwiaHR0cHM6Ly90d2l0dGVyLmNvbS9zZW91bF9qc19vcmdcIj5Ac2VvdWxfanNfb3JnPC9hPjwvcD5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L1NlY3Rpb24+XG4gICAgICA8L1BhZ2VzPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuaGVybyB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICBvdmVyZmxvdzogaGlkZGVuO1xuICAgICAgICAgIG1hcmdpbjogMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgLnRpdGxlIHtcbiAgICAgICAgICBtYXJnaW4tbGVmdDogMzBweDtcbiAgICAgICAgICBjb2xvcjogI2YzZjNmMztcbiAgICAgICAgfVxuXG4gICAgICAgIC50aXRsZSBoMSB7XG4gICAgICAgICAgZm9udC1zaXplOiA1ZW07XG4gICAgICAgICAgY29sb3I6ICNmZWZlZmU7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIG1hcmdpbjogMHB4O1xuICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxZW07XG4gICAgICAgIH1cblxuICAgICAgICAudGl0bGUgaDIge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMS41ZW07XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIGZvbnQtZmFtaWx5OiBMYXRvO1xuICAgICAgICAgIG1hcmdpbjogMHB4O1xuICAgICAgICAgIG9wYWNpdHk6IDAuNztcbiAgICAgICAgfVxuXG4gICAgICAgIC50aXRsZSBwIHtcbiAgICAgICAgICBmb250LXNpemU6IDEuMmVtO1xuICAgICAgICAgIHdpZHRoOiAyOGVtO1xuICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxLjVlbTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5sb2dvIGltZyB7XG4gICAgICAgICAgd2lkdGg6IDMwMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgLnVwY29taW5nLWV2ZW50cyB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC8+XG4gICk7XG59O1xuIl19 */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/pages/index.tsx */'
-            )
-          );
-        };
-
-        /***/
-      },
-
-    /***/ 0:
-      /*!*************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fragingwind%2FWorkspace%2Fseoul.js.org%2Fpages%2Findex.tsx ***!
-  \*************************************************************************************************************************************/
-      /*! no static exports found */
-      /***/ function(module, exports, __webpack_require__) {
-        module.exports = __webpack_require__(
-          /*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fragingwind%2FWorkspace%2Fseoul.js.org%2Fpages%2Findex.tsx! */ './node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fragingwind%2FWorkspace%2Fseoul.js.org%2Fpages%2Findex.tsx!./'
+          /*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fragingwind%2FWorkspace%2Fseoul.js.org%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js! */ './node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fragingwind%2FWorkspace%2Fseoul.js.org%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./'
         );
 
         /***/
@@ -6070,6 +4760,6 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
         /***/
       }
   },
-  [[0, 'static/runtime/webpack.js']]
+  [[1, 'static/runtime/webpack.js']]
 ]);
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=_error.js.map
