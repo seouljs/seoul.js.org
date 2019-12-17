@@ -4,14 +4,11 @@ import Nav from '../components/nav';
 import Section from '../components/section';
 import Footer from '../components/footer';
 import ZeitEvent from '../components/events/zeit';
-import JSTalkNight01 from '../components/events/js-talk-night-01';
 
 export default () => {
   return (
     <>
-      <Header>
-        <Nav />
-      </Header>
+      <Header></Header>
       <Pages title="Seoul.js | Seoul.js" description="Seoul.js - JS Community in Seoul">
         <Section>
           <div className="hero">
@@ -26,22 +23,12 @@ export default () => {
                 지역기반 프로젝트. 트위치 플랫폼을 이용해서 시간, 공간의 제약을 넘어서는 새로운 개발
                 문화를 만듭니다. Seoul.js 의 Code of Conduct 를 따릅니다.
               </p>
+              <p>
+                Twitter: <a href="https://twitter.com/seoul_js_org">@seoul_js_org</a>
+              </p>
             </div>
           </div>
         </Section>
-        <Section>
-          <div className="upcoming-events">
-            <h1>Upcoming Events</h1>
-            <ZeitEvent />
-          </div>
-        </Section>
-        <Section>
-          <div className="previous-events">
-            <h1>Previous Events</h1>
-            {/* <JSTalkNight01/> */}
-          </div>
-        </Section>
-        <Footer />
       </Pages>
       <style jsx>{`
         .hero {
