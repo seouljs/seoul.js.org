@@ -1,522 +1,6 @@
 (window['webpackJsonp'] = window['webpackJsonp'] || []).push([
   ['static/development/pages/index.js'],
   {
-    /***/ './components/events/zeit.tsx':
-      /*!************************************!*\
-  !*** ./components/events/zeit.tsx ***!
-  \************************************/
-      /*! exports provided: default */
-      /***/ function(module, __webpack_exports__, __webpack_require__) {
-        'use strict';
-        __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! styled-jsx/style */ './node_modules/styled-jsx/style.js'
-        );
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          /*! react */ './node_modules/react/index.js'
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_1__
-        );
-        var _jsxFileName = '/Users/ragingwind/Workspace/seoul.js.org/components/events/zeit.tsx';
-
-        var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-        var Profile = function Profile(_ref) {
-          var url = _ref.url,
-            name = _ref.name,
-            desc = _ref.desc;
-          return __jsx(
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment,
-            null,
-            __jsx(
-              'div',
-              {
-                className: 'jsx-1853015872' + ' ' + 'profile',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 4
-                },
-                __self: this
-              },
-              __jsx('img', {
-                src: url,
-                alt: name,
-                className: 'jsx-1853015872',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 5
-                },
-                __self: this
-              }),
-              __jsx(
-                'p',
-                {
-                  className: 'jsx-1853015872',
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 6
-                  },
-                  __self: this
-                },
-                desc
-              )
-            ),
-            __jsx(
-              styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
-              {
-                id: '1853015872',
-                __self: this
-              },
-              '.profile.jsx-1853015872{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.profile.jsx-1853015872 p.jsx-1853015872{margin:0;}.profile.jsx-1853015872 img.jsx-1853015872{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;border-radius:50%;margin-right:16px;width:80px;height:80px;-webkit-filter:grayscale(100%);filter:grayscale(100%);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9ldmVudHMvemVpdC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT2tCLEFBR3dCLEFBS0osQUFJSyxTQUhoQiwrQ0FJb0Isa0JBVFksQUFVWixrQkFDUCxXQUNDLFlBRVcsc0RBQ3pCLG9CQWRBIiwiZmlsZSI6Ii9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9ldmVudHMvemVpdC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBQcm9maWxlID0gKHsgdXJsLCBuYW1lLCBkZXNjIH0pID0+IHtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9maWxlXCI+XG4gICAgICAgIDxpbWcgc3JjPXt1cmx9IGFsdD17bmFtZX0gLz5cbiAgICAgICAgPHA+e2Rlc2N9PC9wPlxuICAgICAgPC9kaXY+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5wcm9maWxlIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICAgICAgfVxuXG4gICAgICAgIC5wcm9maWxlIHAge1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5wcm9maWxlIGltZyB7XG4gICAgICAgICAgZmxleC1zaHJpbms6IDA7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgICAgICAgIG1hcmdpbi1yaWdodDogMTZweDtcbiAgICAgICAgICB3aWR0aDogODBweDtcbiAgICAgICAgICBoZWlnaHQ6IDgwcHg7XG5cbiAgICAgICAgICBmaWx0ZXI6IGdyYXlzY2FsZSgxMDAlKTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvPlxuICApO1xufTtcbmV4cG9ydCBkZWZhdWx0ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb290XCI+XG4gICAgICAgIDxoMT7ilrIgWkVJVCBLb3JlYSBVc2VyIEdyb3VwIE1lZXR1cDwvaDE+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzY1wiPlxuICAgICAgICAgIDxwPlxuICAgICAgICAgICAgWkVJVCDsnZggTmV4dC5qcywgSHlwZXIsIE1pY3JvLCBTZXJ2ZSwgUGtnIOqwmeydgHsnICd9XG4gICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly96ZWl0LmNvL29zc1wiPuyYpO2UiOyGjOyKpOuTpDwvYT7qs7zsmYAg7ISc67KE66CI7IqkIO2UjOueq+2PvCBOb3cg7JeQ7IScIOygnOqzte2VmOuKlFxuICAgICAgICAgICAg64uk7JaR7ZWcIO2UjOueq+2PvCDrsJzsnpAg6rK97ZeY7JeQIOuMgO2VtOyEnCDshozqsJztlanri4jri6QuIOuNlO2VtOyEnCBaRUlUIOyGlOujqOyFmOydmCDqsJzrsJwg6rK97ZeY6rO8eycgJ31cbiAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5ucG1qcy5jb20vc2VhcmNoP3E9a2V5d29yZHM6bmV4dC1wbHVnaW5zXCI+6rSA66CoIOuQnCDsmKTtlIjshozsiqTrk6Q8L2E+64+EXG4gICAgICAgICAgICDshozqsJztlZjqs6Ag6rO17Jyg7ZWY64qUIOyekOumrOulvCDrp4jroKgg7ZaI7Iq164uI64ukLiDqs7XsnKDtlZjqs6Ag7Iu27J2AIOydtOyVvOq4sOqwgCDsnojsnLzsi5zrqbR7JyAnfVxuICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vZGlzY29yZC5nZy9BNnNuajluXCI+U2VvdWwuanMg65SU7Iqk7L2U65OcIOyxhOuEkDwvYT4gI3plaXQg66GcIOyYpOyFlOyEnFxuICAgICAgICAgICAg7JWM66Ck7KO87IS47JqULiA8Yj7siqTtlLzsu6QsIOyjvOygnCDqt7jrpqzqs6Ag7ZSE66Gc6re4656o7J2AIOuzgOqyvSDrkKAg7IiYIOyeiOyKteuLiOuLpC48L2I+XG4gICAgICAgICAgPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzcGVha2Vyc1wiPlxuICAgICAgICAgIDx1bD5cbiAgICAgICAgICAgIDxsaT5cbiAgICAgICAgICAgICAgPFByb2ZpbGVcbiAgICAgICAgICAgICAgICB1cmw9XCJodHRwczovL3Bicy50d2ltZy5jb20vcHJvZmlsZV9pbWFnZXMvMTE2MzYwMzMyMzk1OTY0ODI1Ni92alNkd3JVcl80MDB4NDAwLmpwZ1wiXG4gICAgICAgICAgICAgICAgbmFtZT1cImppbW15bW9vblwiXG4gICAgICAgICAgICAgICAgZGVzYz1cIk5leHQuanMgOS4wIOyXkCDrjIDtlZwg67OA6rK97KCQIOyGjOqwnOyZgCBOZXh0LmpzIOulvCDsnbTsmqntlbTshJwg6rCE64uo7ZWcIO2OmOydtOyngOulvCDrp4zrk6TslrTshJwg7KeB7KCRIE5vdyDsl5Ag67Cw7Y+s7ZWY64qUIOuwqeuyleydhCDslYzslYTrtIXri4jri6QuIE5leHQuanMg66GcIOqwhOuLqO2VnCDshozqsJwg7Y6Y7J207KeA66W8IOunjOuTpOqzoCBOb3cg7JeQIOuwsO2PrO2VnCDrkqTsl5Ag7Luk7Iqk7YWAIOuPhOuplOyduOydhCDsl7DqsrDtlZjripQg67Cp67KV7J2EIOyGjOqwnO2VqeuLiOuLpC5cIlxuICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgPC9saT5cbiAgICAgICAgICAgIDxsaT5cbiAgICAgICAgICAgICAgPFByb2ZpbGVcbiAgICAgICAgICAgICAgICB1cmw9XCJodHRwczovL3Bicy50d2ltZy5jb20vcHJvZmlsZV9pbWFnZXMvMzc4ODAwMDAwNjAzNjQwMjQ3Lzc3YmY4OGU0NDk1NDAyOTIzYjk3YjBhZjViYjE5NWYwXzQwMHg0MDAucG5nXCJcbiAgICAgICAgICAgICAgICBuYW1lPVwicmhpb1wiXG4gICAgICAgICAgICAgICAgZGVzYz1cIlZ1ZSDsmYAgTm93IOulvCDsgqzsmqntlZjsl6wgVG9kbyDslbHsnYQg66eM65Oc64qUIOuwqeuyleydhCDshozqsJztlanri4jri6QuXCJcbiAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgIDwvbGk+XG4gICAgICAgICAgICA8bGk+VEJEPC9saT5cbiAgICAgICAgICAgIDxsaT5UQkQ8L2xpPlxuICAgICAgICAgICAgPGxpPldvcmtzaG9wIFtUQkRdPC9saT5cbiAgICAgICAgICA8L3VsPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbmZvXCI+XG4gICAgICAgICAgPHVsPlxuICAgICAgICAgICAgPGxpPuyepeyGjCwg7Iuc6rCEOiBUQkQ8L2xpPlxuICAgICAgICAgICAgPGxpPuywuOyXrDogVEJEPC9saT5cbiAgICAgICAgICA8L3VsPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAucm9vdCB7XG4gICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgYmFja2dyb3VuZDogIzAwMDAwMDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgIzMzMztcbiAgICAgICAgICB0cmFuc2l0aW9uOiBib3JkZXItY29sb3IgMjAwbXMgZWFzZS1pbi1vdXQ7XG4gICAgICAgICAgY29sb3I6ICNmZmY7XG4gICAgICAgICAgcGFkZGluZzogMTZweDtcbiAgICAgICAgICBib3gtc2hhZG93OiByZ2JhKDUxLCA1MSwgNTEsIDAuMTYpIDBweCAzcHggMTBweDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5yb290IGEge1xuICAgICAgICAgIGNvbG9yOiAjZWZlZmVmO1xuICAgICAgICB9XG5cbiAgICAgICAgLnJvb3QgYTpob3ZlciB7XG4gICAgICAgICAgY29sb3I6ICNhMGEwYTA7XG4gICAgICAgIH1cblxuICAgICAgICBoMiB7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICB9XG5cbiAgICAgICAgLnNwZWFrZXJzIHVsIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAgICAgICAgZmxleC13cmFwOiB3cmFwO1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICAgICAgICBsaXN0LXN0eWxlOiBub25lO1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICBwYWRkaW5nOiAwIDIwcHg7XG4gICAgICAgIH1cblxuICAgICAgICAuc3BlYWtlcnMgbGkge1xuICAgICAgICAgIG1hcmdpbjogMTBweCAwO1xuICAgICAgICAgIHdpZHRoOiBjYWxjKDUwJSAtIDEwcHgpO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC8+XG4gICk7XG59O1xuIl19 */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/components/events/zeit.tsx */'
-            )
-          );
-        };
-
-        /* harmony default export */ __webpack_exports__['default'] = function() {
-          return __jsx(
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment,
-            null,
-            __jsx(
-              'div',
-              {
-                className: 'jsx-3704369865' + ' ' + 'root',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 34
-                },
-                __self: this
-              },
-              __jsx(
-                'h1',
-                {
-                  className: 'jsx-3704369865',
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 35
-                  },
-                  __self: this
-                },
-                '\u25B2 ZEIT Korea User Group Meetup'
-              ),
-              __jsx(
-                'div',
-                {
-                  className: 'jsx-3704369865' + ' ' + 'desc',
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 36
-                  },
-                  __self: this
-                },
-                __jsx(
-                  'p',
-                  {
-                    className: 'jsx-3704369865',
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 37
-                    },
-                    __self: this
-                  },
-                  'ZEIT \uC758 Next.js, Hyper, Micro, Serve, Pkg \uAC19\uC740',
-                  ' ',
-                  __jsx(
-                    'a',
-                    {
-                      href: 'https://zeit.co/oss',
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 39
-                      },
-                      __self: this
-                    },
-                    '\uC624\uD508\uC18C\uC2A4\uB4E4'
-                  ),
-                  '\uACFC\uC640 \uC11C\uBC84\uB808\uC2A4 \uD50C\uB7AB\uD3FC Now \uC5D0\uC11C \uC81C\uACF5\uD558\uB294 \uB2E4\uC591\uD55C \uD50C\uB7AB\uD3FC \uBC1C\uC790 \uACBD\uD5D8\uC5D0 \uB300\uD574\uC11C \uC18C\uAC1C\uD569\uB2C8\uB2E4. \uB354\uD574\uC11C ZEIT \uC194\uB8E8\uC158\uC758 \uAC1C\uBC1C \uACBD\uD5D8\uACFC',
-                  ' ',
-                  __jsx(
-                    'a',
-                    {
-                      href: 'https://www.npmjs.com/search?q=keywords:next-plugins',
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 41
-                      },
-                      __self: this
-                    },
-                    '\uAD00\uB828 \uB41C \uC624\uD508\uC18C\uC2A4\uB4E4'
-                  ),
-                  '\uB3C4 \uC18C\uAC1C\uD558\uACE0 \uACF5\uC720\uD558\uB294 \uC790\uB9AC\uB97C \uB9C8\uB828 \uD588\uC2B5\uB2C8\uB2E4. \uACF5\uC720\uD558\uACE0 \uC2F6\uC740 \uC774\uC57C\uAE30\uAC00 \uC788\uC73C\uC2DC\uBA74',
-                  ' ',
-                  __jsx(
-                    'a',
-                    {
-                      href: 'https://discord.gg/A6snj9n',
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 43
-                      },
-                      __self: this
-                    },
-                    'Seoul.js \uB514\uC2A4\uCF54\uB4DC \uCC44\uB110'
-                  ),
-                  ' #zeit \uB85C \uC624\uC154\uC11C \uC54C\uB824\uC8FC\uC138\uC694. ',
-                  __jsx(
-                    'b',
-                    {
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 44
-                      },
-                      __self: this
-                    },
-                    '\uC2A4\uD53C\uCEE4, \uC8FC\uC81C \uADF8\uB9AC\uACE0 \uD504\uB85C\uADF8\uB7A8\uC740 \uBCC0\uACBD \uB420 \uC218 \uC788\uC2B5\uB2C8\uB2E4.'
-                  )
-                )
-              ),
-              __jsx(
-                'div',
-                {
-                  className: 'jsx-3704369865' + ' ' + 'speakers',
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 47
-                  },
-                  __self: this
-                },
-                __jsx(
-                  'ul',
-                  {
-                    className: 'jsx-3704369865',
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 48
-                    },
-                    __self: this
-                  },
-                  __jsx(
-                    'li',
-                    {
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 49
-                      },
-                      __self: this
-                    },
-                    __jsx(Profile, {
-                      url:
-                        'https://pbs.twimg.com/profile_images/1163603323959648256/vjSdwrUr_400x400.jpg',
-                      name: 'jimmymoon',
-                      desc:
-                        'Next.js 9.0 \uC5D0 \uB300\uD55C \uBCC0\uACBD\uC810 \uC18C\uAC1C\uC640 Next.js \uB97C \uC774\uC6A9\uD574\uC11C \uAC04\uB2E8\uD55C \uD398\uC774\uC9C0\uB97C \uB9CC\uB4E4\uC5B4\uC11C \uC9C1\uC811 Now \uC5D0 \uBC30\uD3EC\uD558\uB294 \uBC29\uBC95\uC744 \uC54C\uC544\uBD05\uB2C8\uB2E4. Next.js \uB85C \uAC04\uB2E8\uD55C \uC18C\uAC1C \uD398\uC774\uC9C0\uB97C \uB9CC\uB4E4\uACE0 Now \uC5D0 \uBC30\uD3EC\uD55C \uB4A4\uC5D0 \uCEE4\uC2A4\uD140 \uB3C4\uBA54\uC778\uC744 \uC5F0\uACB0\uD558\uB294 \uBC29\uBC95\uC744 \uC18C\uAC1C\uD569\uB2C8\uB2E4.',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 50
-                      },
-                      __self: this
-                    })
-                  ),
-                  __jsx(
-                    'li',
-                    {
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 56
-                      },
-                      __self: this
-                    },
-                    __jsx(Profile, {
-                      url:
-                        'https://pbs.twimg.com/profile_images/378800000603640247/77bf88e4495402923b97b0af5bb195f0_400x400.png',
-                      name: 'rhio',
-                      desc:
-                        'Vue \uC640 Now \uB97C \uC0AC\uC6A9\uD558\uC5EC Todo \uC571\uC744 \uB9CC\uB4DC\uB294 \uBC29\uBC95\uC744 \uC18C\uAC1C\uD569\uB2C8\uB2E4.',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 57
-                      },
-                      __self: this
-                    })
-                  ),
-                  __jsx(
-                    'li',
-                    {
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 63
-                      },
-                      __self: this
-                    },
-                    'TBD'
-                  ),
-                  __jsx(
-                    'li',
-                    {
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 64
-                      },
-                      __self: this
-                    },
-                    'TBD'
-                  ),
-                  __jsx(
-                    'li',
-                    {
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 65
-                      },
-                      __self: this
-                    },
-                    'Workshop [TBD]'
-                  )
-                )
-              ),
-              __jsx(
-                'div',
-                {
-                  className: 'jsx-3704369865' + ' ' + 'info',
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 68
-                  },
-                  __self: this
-                },
-                __jsx(
-                  'ul',
-                  {
-                    className: 'jsx-3704369865',
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 69
-                    },
-                    __self: this
-                  },
-                  __jsx(
-                    'li',
-                    {
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 70
-                      },
-                      __self: this
-                    },
-                    '\uC7A5\uC18C, \uC2DC\uAC04: TBD'
-                  ),
-                  __jsx(
-                    'li',
-                    {
-                      className: 'jsx-3704369865',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 71
-                      },
-                      __self: this
-                    },
-                    '\uCC38\uC5EC: TBD'
-                  )
-                )
-              )
-            ),
-            __jsx(
-              styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
-              {
-                id: '3704369865',
-                __self: this
-              },
-              '.root.jsx-3704369865{width:100%;background:#000000;border-radius:4px;border:1px solid #333;-webkit-transition:border-color 200ms ease-in-out;transition:border-color 200ms ease-in-out;color:#fff;padding:16px;box-shadow:rgba(51,51,51,0.16) 0px 3px 10px;}.root.jsx-3704369865 a.jsx-3704369865{color:#efefef;}.root.jsx-3704369865 a.jsx-3704369865:hover{color:#a0a0a0;}h2.jsx-3704369865{margin:0;}.speakers.jsx-3704369865 ul.jsx-3704369865{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;list-style:none;margin:0;padding:0 20px;}.speakers.jsx-3704369865 li.jsx-3704369865{margin:10px 0;width:calc(50% - 10px);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9ldmVudHMvemVpdC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMEVrQixBQUdzQixBQVdHLEFBSUEsQUFJTCxBQUlJLEFBVUMsU0FiaEIsRUFuQnFCLEdBV3JCLEFBSUEsQUFrQnlCLGdCQWhDTCxPQWlDcEIsV0FoQ3dCLHNCQUNvQixJQW9CdkIscUVBQ0osbUJBcEJKLFdBQ0UsYUFDa0MsY0FtQmpCLDhCQWxCaEMscUZBbUJrQixnQkFDUCxTQUNNLGVBQ2pCIiwiZmlsZSI6Ii9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9ldmVudHMvemVpdC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBQcm9maWxlID0gKHsgdXJsLCBuYW1lLCBkZXNjIH0pID0+IHtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJwcm9maWxlXCI+XG4gICAgICAgIDxpbWcgc3JjPXt1cmx9IGFsdD17bmFtZX0gLz5cbiAgICAgICAgPHA+e2Rlc2N9PC9wPlxuICAgICAgPC9kaXY+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5wcm9maWxlIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICAgICAgfVxuXG4gICAgICAgIC5wcm9maWxlIHAge1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5wcm9maWxlIGltZyB7XG4gICAgICAgICAgZmxleC1zaHJpbms6IDA7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgICAgICAgIG1hcmdpbi1yaWdodDogMTZweDtcbiAgICAgICAgICB3aWR0aDogODBweDtcbiAgICAgICAgICBoZWlnaHQ6IDgwcHg7XG5cbiAgICAgICAgICBmaWx0ZXI6IGdyYXlzY2FsZSgxMDAlKTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvPlxuICApO1xufTtcbmV4cG9ydCBkZWZhdWx0ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb290XCI+XG4gICAgICAgIDxoMT7ilrIgWkVJVCBLb3JlYSBVc2VyIEdyb3VwIE1lZXR1cDwvaDE+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzY1wiPlxuICAgICAgICAgIDxwPlxuICAgICAgICAgICAgWkVJVCDsnZggTmV4dC5qcywgSHlwZXIsIE1pY3JvLCBTZXJ2ZSwgUGtnIOqwmeydgHsnICd9XG4gICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly96ZWl0LmNvL29zc1wiPuyYpO2UiOyGjOyKpOuTpDwvYT7qs7zsmYAg7ISc67KE66CI7IqkIO2UjOueq+2PvCBOb3cg7JeQ7IScIOygnOqzte2VmOuKlFxuICAgICAgICAgICAg64uk7JaR7ZWcIO2UjOueq+2PvCDrsJzsnpAg6rK97ZeY7JeQIOuMgO2VtOyEnCDshozqsJztlanri4jri6QuIOuNlO2VtOyEnCBaRUlUIOyGlOujqOyFmOydmCDqsJzrsJwg6rK97ZeY6rO8eycgJ31cbiAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy5ucG1qcy5jb20vc2VhcmNoP3E9a2V5d29yZHM6bmV4dC1wbHVnaW5zXCI+6rSA66CoIOuQnCDsmKTtlIjshozsiqTrk6Q8L2E+64+EXG4gICAgICAgICAgICDshozqsJztlZjqs6Ag6rO17Jyg7ZWY64qUIOyekOumrOulvCDrp4jroKgg7ZaI7Iq164uI64ukLiDqs7XsnKDtlZjqs6Ag7Iu27J2AIOydtOyVvOq4sOqwgCDsnojsnLzsi5zrqbR7JyAnfVxuICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vZGlzY29yZC5nZy9BNnNuajluXCI+U2VvdWwuanMg65SU7Iqk7L2U65OcIOyxhOuEkDwvYT4gI3plaXQg66GcIOyYpOyFlOyEnFxuICAgICAgICAgICAg7JWM66Ck7KO87IS47JqULiA8Yj7siqTtlLzsu6QsIOyjvOygnCDqt7jrpqzqs6Ag7ZSE66Gc6re4656o7J2AIOuzgOqyvSDrkKAg7IiYIOyeiOyKteuLiOuLpC48L2I+XG4gICAgICAgICAgPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzcGVha2Vyc1wiPlxuICAgICAgICAgIDx1bD5cbiAgICAgICAgICAgIDxsaT5cbiAgICAgICAgICAgICAgPFByb2ZpbGVcbiAgICAgICAgICAgICAgICB1cmw9XCJodHRwczovL3Bicy50d2ltZy5jb20vcHJvZmlsZV9pbWFnZXMvMTE2MzYwMzMyMzk1OTY0ODI1Ni92alNkd3JVcl80MDB4NDAwLmpwZ1wiXG4gICAgICAgICAgICAgICAgbmFtZT1cImppbW15bW9vblwiXG4gICAgICAgICAgICAgICAgZGVzYz1cIk5leHQuanMgOS4wIOyXkCDrjIDtlZwg67OA6rK97KCQIOyGjOqwnOyZgCBOZXh0LmpzIOulvCDsnbTsmqntlbTshJwg6rCE64uo7ZWcIO2OmOydtOyngOulvCDrp4zrk6TslrTshJwg7KeB7KCRIE5vdyDsl5Ag67Cw7Y+s7ZWY64qUIOuwqeuyleydhCDslYzslYTrtIXri4jri6QuIE5leHQuanMg66GcIOqwhOuLqO2VnCDshozqsJwg7Y6Y7J207KeA66W8IOunjOuTpOqzoCBOb3cg7JeQIOuwsO2PrO2VnCDrkqTsl5Ag7Luk7Iqk7YWAIOuPhOuplOyduOydhCDsl7DqsrDtlZjripQg67Cp67KV7J2EIOyGjOqwnO2VqeuLiOuLpC5cIlxuICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgPC9saT5cbiAgICAgICAgICAgIDxsaT5cbiAgICAgICAgICAgICAgPFByb2ZpbGVcbiAgICAgICAgICAgICAgICB1cmw9XCJodHRwczovL3Bicy50d2ltZy5jb20vcHJvZmlsZV9pbWFnZXMvMzc4ODAwMDAwNjAzNjQwMjQ3Lzc3YmY4OGU0NDk1NDAyOTIzYjk3YjBhZjViYjE5NWYwXzQwMHg0MDAucG5nXCJcbiAgICAgICAgICAgICAgICBuYW1lPVwicmhpb1wiXG4gICAgICAgICAgICAgICAgZGVzYz1cIlZ1ZSDsmYAgTm93IOulvCDsgqzsmqntlZjsl6wgVG9kbyDslbHsnYQg66eM65Oc64qUIOuwqeuyleydhCDshozqsJztlanri4jri6QuXCJcbiAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgIDwvbGk+XG4gICAgICAgICAgICA8bGk+VEJEPC9saT5cbiAgICAgICAgICAgIDxsaT5UQkQ8L2xpPlxuICAgICAgICAgICAgPGxpPldvcmtzaG9wIFtUQkRdPC9saT5cbiAgICAgICAgICA8L3VsPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbmZvXCI+XG4gICAgICAgICAgPHVsPlxuICAgICAgICAgICAgPGxpPuyepeyGjCwg7Iuc6rCEOiBUQkQ8L2xpPlxuICAgICAgICAgICAgPGxpPuywuOyXrDogVEJEPC9saT5cbiAgICAgICAgICA8L3VsPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAucm9vdCB7XG4gICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgYmFja2dyb3VuZDogIzAwMDAwMDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgIzMzMztcbiAgICAgICAgICB0cmFuc2l0aW9uOiBib3JkZXItY29sb3IgMjAwbXMgZWFzZS1pbi1vdXQ7XG4gICAgICAgICAgY29sb3I6ICNmZmY7XG4gICAgICAgICAgcGFkZGluZzogMTZweDtcbiAgICAgICAgICBib3gtc2hhZG93OiByZ2JhKDUxLCA1MSwgNTEsIDAuMTYpIDBweCAzcHggMTBweDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5yb290IGEge1xuICAgICAgICAgIGNvbG9yOiAjZWZlZmVmO1xuICAgICAgICB9XG5cbiAgICAgICAgLnJvb3QgYTpob3ZlciB7XG4gICAgICAgICAgY29sb3I6ICNhMGEwYTA7XG4gICAgICAgIH1cblxuICAgICAgICBoMiB7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICB9XG5cbiAgICAgICAgLnNwZWFrZXJzIHVsIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAgICAgICAgZmxleC13cmFwOiB3cmFwO1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICAgICAgICBsaXN0LXN0eWxlOiBub25lO1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICBwYWRkaW5nOiAwIDIwcHg7XG4gICAgICAgIH1cblxuICAgICAgICAuc3BlYWtlcnMgbGkge1xuICAgICAgICAgIG1hcmdpbjogMTBweCAwO1xuICAgICAgICAgIHdpZHRoOiBjYWxjKDUwJSAtIDEwcHgpO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC8+XG4gICk7XG59O1xuIl19 */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/components/events/zeit.tsx */'
-            )
-          );
-        };
-
-        /***/
-      },
-
-    /***/ './components/footer.tsx':
-      /*!*******************************!*\
-  !*** ./components/footer.tsx ***!
-  \*******************************/
-      /*! exports provided: default */
-      /***/ function(module, __webpack_exports__, __webpack_require__) {
-        'use strict';
-        __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! styled-jsx/style */ './node_modules/styled-jsx/style.js'
-        );
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          /*! react */ './node_modules/react/index.js'
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_1__
-        );
-        var _jsxFileName = '/Users/ragingwind/Workspace/seoul.js.org/components/footer.tsx';
-
-        var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-        /* harmony default export */ __webpack_exports__['default'] = function() {
-          return __jsx(
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment,
-            null,
-            __jsx(
-              'footer',
-              {
-                className: 'jsx-4082430063',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 4
-                },
-                __self: this
-              },
-              __jsx(
-                'div',
-                {
-                  className: 'jsx-4082430063',
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 5
-                  },
-                  __self: this
-                },
-                __jsx(
-                  'div',
-                  {
-                    className: 'jsx-4082430063',
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 6
-                    },
-                    __self: this
-                  },
-                  __jsx(
-                    'h4',
-                    {
-                      className: 'jsx-4082430063',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 7
-                      },
-                      __self: this
-                    },
-                    'About Seoul.js'
-                  ),
-                  __jsx(
-                    'p',
-                    {
-                      className: 'jsx-4082430063',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 8
-                      },
-                      __self: this
-                    },
-                    'About'
-                  ),
-                  __jsx(
-                    'p',
-                    {
-                      className: 'jsx-4082430063',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 9
-                      },
-                      __self: this
-                    },
-                    'Organizers'
-                  ),
-                  __jsx(
-                    'p',
-                    {
-                      className: 'jsx-4082430063',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 10
-                      },
-                      __self: this
-                    },
-                    'Contact'
-                  )
-                )
-              ),
-              __jsx(
-                'div',
-                {
-                  className: 'jsx-4082430063' + ' ' + 'copyright',
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 13
-                  },
-                  __self: this
-                },
-                __jsx(
-                  'a',
-                  {
-                    href: 'https://seoul.js.org',
-                    rel: 'noopener noreferrer',
-                    target: '_blank',
-                    'aria-label': 'seouljs',
-                    className: 'jsx-4082430063',
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 14
-                    },
-                    __self: this
-                  },
-                  __jsx('img', {
-                    src: '/static/images/title_w.png',
-                    alt: 'Logo',
-                    className: 'jsx-4082430063' + ' ' + 'logo',
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 20
-                    },
-                    __self: this
-                  })
-                ),
-                __jsx(
-                  'div',
-                  {
-                    className: 'jsx-4082430063',
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 22
-                    },
-                    __self: this
-                  },
-                  ' Copyright \xA9 2019 SEOUL.JS. All rights reserved.'
-                )
-              )
-            ),
-            __jsx(
-              styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
-              {
-                id: '4082430063',
-                __self: this
-              },
-              '.logo.jsx-4082430063{width:90px;}a.jsx-4082430063,p.jsx-4082430063,.copyright.jsx-4082430063{color:#8c8c8c;}h4.jsx-4082430063 a.jsx-4082430063{color:inherit;}a.jsx-4082430063:hover{color:#efefef;}.copyright.jsx-4082430063{margin-top:3rem;}.copyright.jsx-4082430063 div.jsx-4082430063{margin-top:0.5rem;}footer.jsx-4082430063{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:2rem 0 4rem;width:100vw;min-height:320px;margin:0 auto;padding:0 1rem;max-width:1024px;}h4.jsx-4082430063{margin-bottom:0.75rem;}p.jsx-4082430063{margin-top:0;margin-bottom:0.25rem;}*.jsx-4082430063+h4.jsx-4082430063{margin-top:1rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9mb290ZXIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdCa0IsQUFHc0IsQUFLRyxBQUdBLEFBR0EsQUFHRSxBQUdFLEFBR0wsQUFVUyxBQUdULEFBSUcsV0FwQ2xCLEVBaUN3QixDQTVCeEIsQUFHQSxBQUdBLEVBR0EsQUF1QkEsRUFwQkEsSUFhQSxhQUlBLHVDQWR3Qiw4RUFDRixvQkFDUixZQUNLLGlCQUNILGNBQ0MsZUFDRSxpQkFDbkIiLCJmaWxlIjoiL1VzZXJzL3JhZ2luZ3dpbmQvV29ya3NwYWNlL3Nlb3VsLmpzLm9yZy9jb21wb25lbnRzL2Zvb3Rlci50c3giLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxmb290ZXI+XG4gICAgICAgIDxkaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxoND5BYm91dCBTZW91bC5qczwvaDQ+XG4gICAgICAgICAgICA8cD5BYm91dDwvcD5cbiAgICAgICAgICAgIDxwPk9yZ2FuaXplcnM8L3A+XG4gICAgICAgICAgICA8cD5Db250YWN0PC9wPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb3B5cmlnaHRcIj5cbiAgICAgICAgICA8YVxuICAgICAgICAgICAgaHJlZj1cImh0dHBzOi8vc2VvdWwuanMub3JnXCJcbiAgICAgICAgICAgIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIlxuICAgICAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgICAgIGFyaWEtbGFiZWw9XCJzZW91bGpzXCJcbiAgICAgICAgICA+XG4gICAgICAgICAgICA8aW1nIGNsYXNzTmFtZT1cImxvZ29cIiBzcmM9XCIvc3RhdGljL2ltYWdlcy90aXRsZV93LnBuZ1wiIGFsdD1cIkxvZ29cIiAvPlxuICAgICAgICAgIDwvYT5cbiAgICAgICAgICA8ZGl2PiBDb3B5cmlnaHQgwqkgMjAxOSBTRU9VTC5KUy4gQWxsIHJpZ2h0cyByZXNlcnZlZC48L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Zvb3Rlcj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgLmxvZ28ge1xuICAgICAgICAgIHdpZHRoOiA5MHB4O1xuICAgICAgICB9XG4gICAgICAgIGEsXG4gICAgICAgIHAsXG4gICAgICAgIC5jb3B5cmlnaHQge1xuICAgICAgICAgIGNvbG9yOiAjOGM4YzhjO1xuICAgICAgICB9XG4gICAgICAgIGg0IGEge1xuICAgICAgICAgIGNvbG9yOiBpbmhlcml0O1xuICAgICAgICB9XG4gICAgICAgIGE6aG92ZXIge1xuICAgICAgICAgIGNvbG9yOiAjZWZlZmVmO1xuICAgICAgICB9XG4gICAgICAgIC5jb3B5cmlnaHQge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDNyZW07XG4gICAgICAgIH1cbiAgICAgICAgLmNvcHlyaWdodCBkaXYge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDAuNXJlbTtcbiAgICAgICAgfVxuICAgICAgICBmb290ZXIge1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgICBwYWRkaW5nOiAycmVtIDAgNHJlbTtcbiAgICAgICAgICB3aWR0aDogMTAwdnc7XG4gICAgICAgICAgbWluLWhlaWdodDogMzIwcHg7XG4gICAgICAgICAgbWFyZ2luOiAwIGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxcmVtO1xuICAgICAgICAgIG1heC13aWR0aDogMTAyNHB4O1xuICAgICAgICB9XG4gICAgICAgIGg0IHtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAwLjc1cmVtO1xuICAgICAgICB9XG4gICAgICAgIHAge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDA7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMC4yNXJlbTtcbiAgICAgICAgfVxuICAgICAgICAqICsgaDQge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDFyZW07XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8Lz5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/components/footer.tsx */'
-            )
-          );
-        };
-
-        /***/
-      },
-
     /***/ './components/header.tsx':
       /*!*******************************!*\
   !*** ./components/header.tsx ***!
@@ -564,78 +48,6 @@
                 __self: this
               },
               'header.jsx-291361117{left:0;width:100vw;height:100px;padding:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9oZWFkZXIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlrQixBQUdrQixPQUNLLFlBQ0MsYUFDQSxhQUNmIiwiZmlsZSI6Ii9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9oZWFkZXIudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgKHsgY2hpbGRyZW4gfSkgPT4ge1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8aGVhZGVyPntjaGlsZHJlbn08L2hlYWRlcj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgaGVhZGVyIHtcbiAgICAgICAgICBsZWZ0OiAwO1xuICAgICAgICAgIHdpZHRoOiAxMDB2dztcbiAgICAgICAgICBoZWlnaHQ6IDEwMHB4O1xuICAgICAgICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8Lz5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/components/header.tsx */'
-            )
-          );
-        };
-
-        /***/
-      },
-
-    /***/ './components/nav.tsx':
-      /*!****************************!*\
-  !*** ./components/nav.tsx ***!
-  \****************************/
-      /*! exports provided: default */
-      /***/ function(module, __webpack_exports__, __webpack_require__) {
-        'use strict';
-        __webpack_require__.r(__webpack_exports__);
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! styled-jsx/style */ './node_modules/styled-jsx/style.js'
-        );
-        /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/ __webpack_require__.n(
-          styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-          /*! react */ './node_modules/react/index.js'
-        );
-        /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
-          react__WEBPACK_IMPORTED_MODULE_1__
-        );
-        var _jsxFileName = '/Users/ragingwind/Workspace/seoul.js.org/components/nav.tsx';
-
-        var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-        /* harmony default export */ __webpack_exports__['default'] = function() {
-          return __jsx(
-            react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment,
-            null,
-            __jsx(
-              'div',
-              {
-                className: 'jsx-2490158564' + ' ' + 'root',
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 4
-                },
-                __self: this
-              },
-              __jsx(
-                'div',
-                {
-                  className: 'jsx-2490158564',
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 5
-                  },
-                  __self: this
-                },
-                __jsx('img', {
-                  src: '/static/images/logo@2x.png',
-                  className: 'jsx-2490158564',
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 6
-                  },
-                  __self: this
-                })
-              )
-            ),
-            __jsx(
-              styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
-              {
-                id: '2490158564',
-                __self: this
-              },
-              '.root.jsx-2490158564{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;left:0;width:100vw;height:100%;background:#1b1e35;}img.jsx-2490158564{height:80px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvY29tcG9uZW50cy9uYXYudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVFrQixBQUd3QixBQVNELFlBQ2QsOERBVHlCLG1HQUNKLDZGQUNaLE9BQ0ssWUFDQSxZQUNPLG1CQUNyQiIsImZpbGUiOiIvVXNlcnMvcmFnaW5nd2luZC9Xb3Jrc3BhY2Uvc2VvdWwuanMub3JnL2NvbXBvbmVudHMvbmF2LnRzeCIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb290XCI+XG4gICAgICAgIDxkaXY+XG4gICAgICAgICAgPGltZyBzcmM9XCIvc3RhdGljL2ltYWdlcy9sb2dvQDJ4LnBuZ1wiIC8+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5yb290IHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgbGVmdDogMDtcbiAgICAgICAgICB3aWR0aDogMTAwdnc7XG4gICAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICAgIGJhY2tncm91bmQ6ICMxYjFlMzU7XG4gICAgICAgIH1cbiAgICAgICAgaW1nIHtcbiAgICAgICAgICBoZWlnaHQ6IDgwcHg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8Lz5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/components/nav.tsx */'
             )
           );
         };
@@ -6476,17 +5888,8 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
         /* harmony import */ var _components_pages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
           /*! ../components/pages */ './components/pages.tsx'
         );
-        /* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-          /*! ../components/nav */ './components/nav.tsx'
-        );
-        /* harmony import */ var _components_section__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+        /* harmony import */ var _components_section__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
           /*! ../components/section */ './components/section.tsx'
-        );
-        /* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-          /*! ../components/footer */ './components/footer.tsx'
-        );
-        /* harmony import */ var _components_events_zeit__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-          /*! ../components/events/zeit */ './components/events/zeit.tsx'
         );
         var _jsxFileName = '/Users/ragingwind/Workspace/seoul.js.org/pages/index.tsx';
 
@@ -6496,23 +5899,13 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
           return __jsx(
             react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment,
             null,
-            __jsx(
-              _components_header__WEBPACK_IMPORTED_MODULE_2__['default'],
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 12
-                },
-                __self: this
+            __jsx(_components_header__WEBPACK_IMPORTED_MODULE_2__['default'], {
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 11
               },
-              __jsx(_components_nav__WEBPACK_IMPORTED_MODULE_4__['default'], {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 13
-                },
-                __self: this
-              })
-            ),
+              __self: this
+            }),
             __jsx(
               _components_pages__WEBPACK_IMPORTED_MODULE_3__['default'],
               {
@@ -6520,16 +5913,16 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                 description: 'Seoul.js - JS Community in Seoul',
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 15
+                  lineNumber: 13
                 },
                 __self: this
               },
               __jsx(
-                _components_section__WEBPACK_IMPORTED_MODULE_5__['default'],
+                _components_section__WEBPACK_IMPORTED_MODULE_4__['default'],
                 {
                   __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 16
+                    lineNumber: 14
                   },
                   __self: this
                 },
@@ -6539,7 +5932,7 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                     className: 'jsx-2253487491' + ' ' + 'hero',
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 17
+                      lineNumber: 15
                     },
                     __self: this
                   },
@@ -6549,7 +5942,7 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                       className: 'jsx-2253487491' + ' ' + 'logo',
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 18
+                        lineNumber: 16
                       },
                       __self: this
                     },
@@ -6559,7 +5952,7 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                       className: 'jsx-2253487491',
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 19
+                        lineNumber: 17
                       },
                       __self: this
                     })
@@ -6570,7 +5963,7 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                       className: 'jsx-2253487491' + ' ' + 'title',
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 21
+                        lineNumber: 19
                       },
                       __self: this
                     },
@@ -6580,7 +5973,7 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                         className: 'jsx-2253487491',
                         __source: {
                           fileName: _jsxFileName,
-                          lineNumber: 22
+                          lineNumber: 20
                         },
                         __self: this
                       },
@@ -6592,7 +5985,7 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                         className: 'jsx-2253487491',
                         __source: {
                           fileName: _jsxFileName,
-                          lineNumber: 23
+                          lineNumber: 21
                         },
                         __self: this
                       },
@@ -6604,7 +5997,7 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                         className: 'jsx-2253487491',
                         __source: {
                           fileName: _jsxFileName,
-                          lineNumber: 24
+                          lineNumber: 22
                         },
                         __self: this
                       },
@@ -6612,87 +6005,7 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                     )
                   )
                 )
-              ),
-              __jsx(
-                _components_section__WEBPACK_IMPORTED_MODULE_5__['default'],
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 32
-                  },
-                  __self: this
-                },
-                __jsx(
-                  'div',
-                  {
-                    className: 'jsx-2253487491' + ' ' + 'upcoming-events',
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 33
-                    },
-                    __self: this
-                  },
-                  __jsx(
-                    'h1',
-                    {
-                      className: 'jsx-2253487491',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 34
-                      },
-                      __self: this
-                    },
-                    'Upcoming Events'
-                  ),
-                  __jsx(_components_events_zeit__WEBPACK_IMPORTED_MODULE_7__['default'], {
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 35
-                    },
-                    __self: this
-                  })
-                )
-              ),
-              __jsx(
-                _components_section__WEBPACK_IMPORTED_MODULE_5__['default'],
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 38
-                  },
-                  __self: this
-                },
-                __jsx(
-                  'div',
-                  {
-                    className: 'jsx-2253487491' + ' ' + 'previous-events',
-                    __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 39
-                    },
-                    __self: this
-                  },
-                  __jsx(
-                    'h1',
-                    {
-                      className: 'jsx-2253487491',
-                      __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 40
-                      },
-                      __self: this
-                    },
-                    'Previous Events'
-                  )
-                )
-              ),
-              __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_6__['default'], {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 44
-                },
-                __self: this
-              })
+              )
             ),
             __jsx(
               styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
@@ -6700,7 +6013,7 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                 id: '2253487491',
                 __self: this
               },
-              '.hero.jsx-2253487491{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;overflow:hidden;margin:0px;}.title.jsx-2253487491{margin-left:30px;color:#f3f3f3;}.title.jsx-2253487491 h1.jsx-2253487491{font-size:5em;color:#fefefe;margin:0;margin:0px;line-height:1em;}.title.jsx-2253487491 h2.jsx-2253487491{font-size:1.5em;margin:0;font-family:Lato;margin:0px;opacity:0.7;}.title.jsx-2253487491 p.jsx-2253487491{font-size:1.2em;width:28em;line-height:1.5em;}.logo.jsx-2253487491 img.jsx-2253487491{width:300px;}.upcoming-events.jsx-2253487491{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvcGFnZXMvaW5kZXgudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTZDa0IsQUFHd0IsQUFPSSxBQUtILEFBUUUsQUFRQSxBQU1KLEFBSUMsWUFIZixFQXRCZ0IsRUFRTCxBQVFFLENBckJHLFFBY0csRUFRQyxDQWhCVCxHQUxYLE1BTWEsS0FRQSxHQVFiLEdBZmtCLEtBUUosV0FQZCxDQVFBLFNBeEJhLEFBc0NXLFdBckNOLGdCQUNMLFdBQ2Isd0NBb0NhLFdBQ2IiLCJmaWxlIjoiL1VzZXJzL3JhZ2luZ3dpbmQvV29ya3NwYWNlL3Nlb3VsLmpzLm9yZy9wYWdlcy9pbmRleC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZGVyIGZyb20gJy4uL2NvbXBvbmVudHMvaGVhZGVyJztcbmltcG9ydCBQYWdlcyBmcm9tICcuLi9jb21wb25lbnRzL3BhZ2VzJztcbmltcG9ydCBOYXYgZnJvbSAnLi4vY29tcG9uZW50cy9uYXYnO1xuaW1wb3J0IFNlY3Rpb24gZnJvbSAnLi4vY29tcG9uZW50cy9zZWN0aW9uJztcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vY29tcG9uZW50cy9mb290ZXInO1xuaW1wb3J0IFplaXRFdmVudCBmcm9tICcuLi9jb21wb25lbnRzL2V2ZW50cy96ZWl0JztcbmltcG9ydCBKU1RhbGtOaWdodDAxIGZyb20gJy4uL2NvbXBvbmVudHMvZXZlbnRzL2pzLXRhbGstbmlnaHQtMDEnO1xuXG5leHBvcnQgZGVmYXVsdCAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxIZWFkZXI+XG4gICAgICAgIDxOYXYgLz5cbiAgICAgIDwvSGVhZGVyPlxuICAgICAgPFBhZ2VzIHRpdGxlPVwiU2VvdWwuanMgfCBTZW91bC5qc1wiIGRlc2NyaXB0aW9uPVwiU2VvdWwuanMgLSBKUyBDb21tdW5pdHkgaW4gU2VvdWxcIj5cbiAgICAgICAgPFNlY3Rpb24+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoZXJvXCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImxvZ29cIj5cbiAgICAgICAgICAgICAgPGltZyBzcmM9XCIvc3RhdGljL2ltYWdlcy9sb2dvLXNxLnBuZ1wiIGFsdD1cIlwiIC8+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGVcIj5cbiAgICAgICAgICAgICAgPGgxPlNlb3VsLmpzPC9oMT5cbiAgICAgICAgICAgICAgPGgyPkphdmFzY3JpcHQgaXMgZXZlcnl3aGVyZSBub3Qgb25seSBpbiBTZW91bDwvaDI+XG4gICAgICAgICAgICAgIDxwPlxuICAgICAgICAgICAgICAgIOuEk+qzoCDslpXsnYAg7J6Q67CU7Iqk7YGs66a97Yq47J2YIOyngOyLneqzvCDrp6TroKXsnLzroZwg7Jes65+s67aE7J2YIOustOumjuqzvCDrqLjrpqzrpbwg7LmY6rKMIOunjOuTpCDrjIDtlZzrr7zqta1cbiAgICAgICAgICAgICAgICDsp4Dsl63quLDrsJgg7ZSE66Gc7KCd7Yq4LiDtirjsnITsuZgg7ZSM656r7Y+87J2EIOydtOyaqe2VtOyEnCDsi5zqsIQsIOqzteqwhOydmCDsoJzslb3snYQg64SY7Ja07ISc64qUIOyDiOuhnOyatCDqsJzrsJxcbiAgICAgICAgICAgICAgICDrrLjtmZTrpbwg66eM65Ot64uI64ukLiBTZW91bC5qcyDsnZggQ29kZSBvZiBDb25kdWN0IOulvCDrlLDrpoXri4jri6QuXG4gICAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L1NlY3Rpb24+XG4gICAgICAgIDxTZWN0aW9uPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidXBjb21pbmctZXZlbnRzXCI+XG4gICAgICAgICAgICA8aDE+VXBjb21pbmcgRXZlbnRzPC9oMT5cbiAgICAgICAgICAgIDxaZWl0RXZlbnQgLz5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9TZWN0aW9uPlxuICAgICAgICA8U2VjdGlvbj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByZXZpb3VzLWV2ZW50c1wiPlxuICAgICAgICAgICAgPGgxPlByZXZpb3VzIEV2ZW50czwvaDE+XG4gICAgICAgICAgICB7LyogPEpTVGFsa05pZ2h0MDEvPiAqL31cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9TZWN0aW9uPlxuICAgICAgICA8Rm9vdGVyIC8+XG4gICAgICA8L1BhZ2VzPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuaGVybyB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICBvdmVyZmxvdzogaGlkZGVuO1xuICAgICAgICAgIG1hcmdpbjogMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgLnRpdGxlIHtcbiAgICAgICAgICBtYXJnaW4tbGVmdDogMzBweDtcbiAgICAgICAgICBjb2xvcjogI2YzZjNmMztcbiAgICAgICAgfVxuXG4gICAgICAgIC50aXRsZSBoMSB7XG4gICAgICAgICAgZm9udC1zaXplOiA1ZW07XG4gICAgICAgICAgY29sb3I6ICNmZWZlZmU7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIG1hcmdpbjogMHB4O1xuICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxZW07XG4gICAgICAgIH1cblxuICAgICAgICAudGl0bGUgaDIge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMS41ZW07XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIGZvbnQtZmFtaWx5OiBMYXRvO1xuICAgICAgICAgIG1hcmdpbjogMHB4O1xuICAgICAgICAgIG9wYWNpdHk6IDAuNztcbiAgICAgICAgfVxuXG4gICAgICAgIC50aXRsZSBwIHtcbiAgICAgICAgICBmb250LXNpemU6IDEuMmVtO1xuICAgICAgICAgIHdpZHRoOiAyOGVtO1xuICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxLjVlbTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5sb2dvIGltZyB7XG4gICAgICAgICAgd2lkdGg6IDMwMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgLnVwY29taW5nLWV2ZW50cyB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC8+XG4gICk7XG59O1xuIl19 */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/pages/index.tsx */'
+              '.hero.jsx-2253487491{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;overflow:hidden;margin:0px;}.title.jsx-2253487491{margin-left:30px;color:#f3f3f3;}.title.jsx-2253487491 h1.jsx-2253487491{font-size:5em;color:#fefefe;margin:0;margin:0px;line-height:1em;}.title.jsx-2253487491 h2.jsx-2253487491{font-size:1.5em;margin:0;font-family:Lato;margin:0px;opacity:0.7;}.title.jsx-2253487491 p.jsx-2253487491{font-size:1.2em;width:28em;line-height:1.5em;}.logo.jsx-2253487491 img.jsx-2253487491{width:300px;}.upcoming-events.jsx-2253487491{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYWdpbmd3aW5kL1dvcmtzcGFjZS9zZW91bC5qcy5vcmcvcGFnZXMvaW5kZXgudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQThCa0IsQUFHd0IsQUFPSSxBQUtILEFBUUUsQUFRQSxBQU1KLEFBSUMsWUFIZixFQXRCZ0IsRUFRTCxBQVFFLENBckJHLFFBY0csRUFRQyxDQWhCVCxHQUxYLE1BTWEsS0FRQSxHQVFiLEdBZmtCLEtBUUosV0FQZCxDQVFBLFNBeEJhLEFBc0NXLFdBckNOLGdCQUNMLFdBQ2Isd0NBb0NhLFdBQ2IiLCJmaWxlIjoiL1VzZXJzL3JhZ2luZ3dpbmQvV29ya3NwYWNlL3Nlb3VsLmpzLm9yZy9wYWdlcy9pbmRleC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZGVyIGZyb20gJy4uL2NvbXBvbmVudHMvaGVhZGVyJztcbmltcG9ydCBQYWdlcyBmcm9tICcuLi9jb21wb25lbnRzL3BhZ2VzJztcbmltcG9ydCBOYXYgZnJvbSAnLi4vY29tcG9uZW50cy9uYXYnO1xuaW1wb3J0IFNlY3Rpb24gZnJvbSAnLi4vY29tcG9uZW50cy9zZWN0aW9uJztcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vY29tcG9uZW50cy9mb290ZXInO1xuaW1wb3J0IFplaXRFdmVudCBmcm9tICcuLi9jb21wb25lbnRzL2V2ZW50cy96ZWl0JztcblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4ge1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8SGVhZGVyPlxuICAgICAgPC9IZWFkZXI+XG4gICAgICA8UGFnZXMgdGl0bGU9XCJTZW91bC5qcyB8IFNlb3VsLmpzXCIgZGVzY3JpcHRpb249XCJTZW91bC5qcyAtIEpTIENvbW11bml0eSBpbiBTZW91bFwiPlxuICAgICAgICA8U2VjdGlvbj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlcm9cIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibG9nb1wiPlxuICAgICAgICAgICAgICA8aW1nIHNyYz1cIi9zdGF0aWMvaW1hZ2VzL2xvZ28tc3EucG5nXCIgYWx0PVwiXCIgLz5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0aXRsZVwiPlxuICAgICAgICAgICAgICA8aDE+U2VvdWwuanM8L2gxPlxuICAgICAgICAgICAgICA8aDI+SmF2YXNjcmlwdCBpcyBldmVyeXdoZXJlIG5vdCBvbmx5IGluIFNlb3VsPC9oMj5cbiAgICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgICAg64ST6rOgIOyWleydgCDsnpDrsJTsiqTtgazrpr3tirjsnZgg7KeA7Iud6rO8IOunpOugpeycvOuhnCDsl6zrn6zrtoTsnZgg66y066aO6rO8IOuouOumrOulvCDsuZjqsowg66eM65OkIOuMgO2VnOuvvOq1rVxuICAgICAgICAgICAgICAgIOyngOyXreq4sOuwmCDtlITroZzsoJ3tirguIO2KuOychOy5mCDtlIzrnqvtj7zsnYQg7J207Jqp7ZW07IScIOyLnOqwhCwg6rO16rCE7J2YIOygnOyVveydhCDrhJjslrTshJzripQg7IOI66Gc7Jq0IOqwnOuwnFxuICAgICAgICAgICAgICAgIOusuO2ZlOulvCDrp4zrk63ri4jri6QuIFNlb3VsLmpzIOydmCBDb2RlIG9mIENvbmR1Y3Qg66W8IOuUsOumheuLiOuLpC5cbiAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvU2VjdGlvbj5cbiAgICAgIDwvUGFnZXM+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5oZXJvIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgICAgICAgbWFyZ2luOiAwcHg7XG4gICAgICAgIH1cblxuICAgICAgICAudGl0bGUge1xuICAgICAgICAgIG1hcmdpbi1sZWZ0OiAzMHB4O1xuICAgICAgICAgIGNvbG9yOiAjZjNmM2YzO1xuICAgICAgICB9XG5cbiAgICAgICAgLnRpdGxlIGgxIHtcbiAgICAgICAgICBmb250LXNpemU6IDVlbTtcbiAgICAgICAgICBjb2xvcjogI2ZlZmVmZTtcbiAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgbWFyZ2luOiAwcHg7XG4gICAgICAgICAgbGluZS1oZWlnaHQ6IDFlbTtcbiAgICAgICAgfVxuXG4gICAgICAgIC50aXRsZSBoMiB7XG4gICAgICAgICAgZm9udC1zaXplOiAxLjVlbTtcbiAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgZm9udC1mYW1pbHk6IExhdG87XG4gICAgICAgICAgbWFyZ2luOiAwcHg7XG4gICAgICAgICAgb3BhY2l0eTogMC43O1xuICAgICAgICB9XG5cbiAgICAgICAgLnRpdGxlIHAge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMS4yZW07XG4gICAgICAgICAgd2lkdGg6IDI4ZW07XG4gICAgICAgICAgbGluZS1oZWlnaHQ6IDEuNWVtO1xuICAgICAgICB9XG5cbiAgICAgICAgLmxvZ28gaW1nIHtcbiAgICAgICAgICB3aWR0aDogMzAwcHg7XG4gICAgICAgIH1cblxuICAgICAgICAudXBjb21pbmctZXZlbnRzIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8Lz5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/Users/ragingwind/Workspace/seoul.js.org/pages/index.tsx */'
             )
           );
         };
